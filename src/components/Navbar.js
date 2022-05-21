@@ -16,6 +16,7 @@ function Navbar() {
                 <img src={Logo} />
                 <div className="hiddenLinks">
                     <Link to="/"> Home </Link>
+                    <Link to="/add_guides"> Add Guides </Link>
                     <Link to="/guides"> Guides </Link>
                     <Link to="/about"> About </Link>
                     <Link to="/profile"> Profile </Link>
@@ -23,6 +24,7 @@ function Navbar() {
             </div>
             <div className="rightSide">
                 <Link to="/"> Home </Link>
+                <Link to="/add_guides"> Add Guides </Link>
                 <Link to="/guides"> Guides </Link>
                 <Link to="/about"> About </Link>
                 <Link to="/profile"> Profile </Link>
