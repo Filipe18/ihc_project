@@ -19,13 +19,13 @@ function Home() {
     return (
         <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
             <div className="headerContainer">
-                <h1>What kind of equipment do you want to repair?</h1>
+                <h1>What are you trying to fix?</h1>
             </div>
             <div className="button_container">
                 <button class="button_phone" role="button">Phones</button>
-                <button class="button_tablet" role="button">phones</button>
-                <button class="button_watch" role="button">phones</button>
-                <button class="button_pc" role="button">phones</button>
+                <button class="button_tablet" role="button">Tablets</button>
+                <button class="button_pc" role="button">PCs</button>
+                <button class="button_watch" role="button">SmartWatches</button>
                 {/* <button class="button_phone" role="button">phones</button>
                 <button class="button_phone" role="button">phones</button> */}
             </div>
