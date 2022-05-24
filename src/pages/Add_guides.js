@@ -5,8 +5,8 @@ import '../styles/Home.css'
 
 function Add_guides() {
     return (
-        <div className="home" >
-            <div className="headerContainer" style={{backgroundImage: `url(${BannerImage})`}}>
+        <div className="home"  style={{backgroundImage: `url(${BannerImage})`}}>
+            <div className="headerContainer">
                 <h1>Self-Repair</h1>
                 <Link to="/guides">
                 <button>See the guides</button>
