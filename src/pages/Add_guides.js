@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import BannerImage from '../assets/background4.jpg'
+import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
 import countries from "./countries";
 import './style.css'

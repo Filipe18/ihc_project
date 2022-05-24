@@ -19,7 +19,7 @@ function Home() {
     return (
         <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
             <div className="headerContainer">
-                <h1>Self-Repair</h1>
+                <h1>What kind of equipment do you want to repair?</h1>
             </div>
             <div className="button_container">
                 <button class="button_phone" role="button">Phones</button>
