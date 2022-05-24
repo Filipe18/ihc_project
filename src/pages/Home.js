@@ -1,6 +1,6 @@
 //import React from 'react'
 import {Link} from "react-router-dom"
-import BannerImage from '../assets/background4.jpg'
+import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
 import * as React from 'react';
 import Card from '@mui/material/Card';
@@ -21,9 +21,17 @@ function Home() {
             <div className="headerContainer">
                 <h1>Self-Repair</h1>
             </div>
-
+            <div className="button_container">
+                <button class="button_phone" role="button">Phones</button>
+                <button class="button_tablet" role="button">phones</button>
+                <button class="button_watch" role="button">phones</button>
+                <button class="button_pc" role="button">phones</button>
+                {/* <button class="button_phone" role="button">phones</button>
+                <button class="button_phone" role="button">phones</button> */}
+            </div>
  
         </div>
+        
     )
 }
 
