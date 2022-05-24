@@ -127,6 +127,23 @@
     width: 250px;
     -webkit-text-stroke: 1.5px black;
   }
+
+  .button_phone:hover {
+    background-color: #3c3c3c;
+    transform: scale(1.1);
+  }
+  .button_pc:hover {
+    background-color: #3c3c3c;
+    transform: scale(1.1);
+  }
+  .button_tablet:hover {
+    background-color: #3c3c3c;
+    transform: scale(1.1);
+  }
+  .button_watch:hover {
+    background-color: #3c3c3c;
+    transform: scale(1.1);
+  }
   
   @media only screen and (max-width: 650px) {
     .home {
