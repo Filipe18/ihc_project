@@ -29,6 +29,11 @@ function Home() {
                 {/* <button class="button_phone" role="button">phones</button>
                 <button class="button_phone" role="button">phones</button> */}
             </div>
+
+            <div className="aboutSection">
+                <h1>About us</h1>
+
+            </div>
  
         </div>
         
