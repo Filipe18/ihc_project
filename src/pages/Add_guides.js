@@ -2,77 +2,74 @@ import React from 'react'
 import {Link} from "react-router-dom"
 import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
-import countries from "./countries";
-import './style.css'
+import '../styles/Add_guides.css'
 
 
 function Add_guides() {
-    const [email, setEmail] = React.useState("");
-    const [password, setPassword] = React.useState("");
-    const [country, setCountry] = React.useState("");
-    const [acceptedTerms, setAcceptedTerms] = React.useState(false);
-
-    const handleSubmit = (event) => {
-        console.log(`
-        Email: ${email}
-        Password: ${password}
-        Country: ${country}
-        Accepted Terms: ${acceptedTerms}
-        `);
-
-        event.preventDefault();
-  }
-
     return (
         <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
-            <form onSubmit={handleSubmit}>
-      <h1>Create Account</h1>
+            <form>
+      <h1>Add Guides</h1>
 
       <label>
-        Email:
-        <input
-          name="email"
-          type="email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-          required />
-      </label>
-
-      <label>
-        Password:
-        <input
-          name="password"
-          type="password"
-          value={password}
-          onChange={e => setPassword(e.target.value)}
-          required />
-      </label>
-
-      <label>
-        Country:
+        Device Type:
         <select
-          name="country"
-          value={country}
-          onChange={e => setCountry(e.target.value)}
+          name="device"
           required>
-          <option key=""></option>
-          {countries.map(country => (
-            <option key={country}>{country}</option>
-          ))}
+          <option key="default"></option>
+          <option value="phone">Phone</option>
+          <option value="tablet">Tablet</option>
+          <option value="smartwatch">SmartWatch</option>
+          <option value="phone">PC</option>
+          
         </select>
       </label>
 
       <label>
+        Model:
         <input
-          name="acceptedTerms"
-          type="checkbox"
-          onChange={e => setAcceptedTerms(e.target.value)}
+          name="model"
+          type="text"
           required />
-        I accept the terms of service
       </label>
 
+      <label>
+        Brand:
+        <select
+          name="brand"
+          required>
+          <option key="default"></option>
+          <option>Samsung</option>
+          <option>Huawei</option>
+          <option>Xiaomi</option>
+          <option>Asus</option>
+          <option>HP</option>
+          <option>Insys</option>
+          <option>Dell</option>
+          <option>Lenovo</option>
+          <option>Other</option>
+        </select>
+      </label>
+
+      <label>
+        Category:
+        <select
+          name="category"
+          required>
+          <option key="default"></option>
+          <option>Battery Replacement</option>
+          <option>Display Replacement</option>
+          <option>Hard Drive Replacement</option>
+          <option>Ram Replacement</option>
+          <option>Other</option>
+        </select>
+      </label>
+
+      <button required>Upload PDF Guide</button>
+       
+       
       <button>Submit</button>
-    </form>
+  </form>
     </div>
     );
 }
