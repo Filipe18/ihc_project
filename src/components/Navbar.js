@@ -19,7 +19,7 @@ function Navbar() {
                     <Link to="/add_guides"> Add Guides </Link>
                     <Link to="/guides"> Guides </Link>
                     <Link to="/about"> About </Link>
-                    <Link to="/profile"> Profile </Link>
+                    <Link to="/login"> Login </Link>
                     
                 </div>
             </div>
@@ -28,7 +28,7 @@ function Navbar() {
                 <Link to="/add_guides"> Add Guides </Link>
                 <Link to="/guides"> Guides </Link>
                 <Link to="/about"> About </Link>
-                <Link to="/profile"> Profile </Link>
+                <Link to="/login"> Login </Link>
                 <Link to="/temp_guide"> Temp_guide </Link>
                 <button onClick={toggleNavbar}>
                     <ReorderIcon />

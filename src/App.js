@@ -5,6 +5,8 @@ import Home from "./pages/Home"
 import Add_guides from './pages/Add_guides';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Guide_page from './pages/Guide_page';
+import Login from './pages/Login';
+
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           <Route exact path='/' element={<Home />}/>
           <Route exact path='/add_guides' element={<Add_guides />}/>
           <Route exact path='/temp_guide' element={<Guide_page />}/>
+          <Route exact path='/login' element={<Login />}/>
+
         </Routes>
         <Footer />
       </Router>
