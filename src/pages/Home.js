@@ -21,15 +21,14 @@ function Home() {
             <div className="headerContainer">
                 <h1>What are you trying to fix?</h1>
             </div>
+            <Link to="/filter_device">
             <div className="button_container">
                 <button class="button_phone" role="button"></button>
                 <button class="button_tablet" role="button"></button>
                 <button class="button_pc" role="button"></button>
                 <button class="button_watch" role="button"></button>
-                {/* <button class="button_phone" role="button">phones</button>
-                <button class="button_phone" role="button">phones</button> */}
             </div>
-
+            </Link>
             <div className="aboutSection">
                 <h1>About us</h1>
 
