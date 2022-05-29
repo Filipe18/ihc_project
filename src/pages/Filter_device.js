@@ -1,47 +1,53 @@
-import React from 'react'
-import {Link} from "react-router-dom"
+import React from "react";
 import BannerImage from '../assets/background.jpeg'
-import '../styles/Home.css'
-import '../styles/Add_guides.css'
 
-
-function Filter_device() {
-    return (
-        <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
-            <form>
-      <h1>Add Guides</h1>
-
-      <label>
-        Brand:
-        <select
-          name="brand"
-          required>
-          <option key="default"></option>
-          <option>Samsung</option>
-          <option>Huawei</option>
-          <option>Xiaomi</option>
-          <option>Asus</option>
-          <option>HP</option>
-          <option>Insys</option>
-          <option>Dell</option>
-          <option>Lenovo</option>
-          <option>Other</option>
-        </select>
-      </label>
-
-      <label>
-        Model:
-        <input
-          name="model"
-          type="text"
-          required />
-      </label>
-       
-       
-      <button>Search</button>
-  </form>
-    </div>
-    );
+const lookup = {
+  "Samsung": [
+    { id: 'Galaxy S8', text: 'Galaxy S8' },
+    { id: 'Galaxy S9', text: 'Galaxy S9' },
+    { id: 'Galaxy S10', text: 'Galaxy S10' }
+  ],
+  "Apple": [
+    { id: 'Iphone 7', text: 'Iphone 7' },
+    { id: 'Iphone 12', text: 'Iphone 12' }
+  ]
 }
 
-export default Filter_device
+class Filter_device extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataValue: 'Samsung'
+    }
+  }
+
+  onChange = ({ target: { value } }) => {
+    this.setState({ dataValue: value });
+  }
+
+  render() {
+    const { dataValue } = this.state;
+    const options = lookup[dataValue];
+    return (
+      <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
+        <form>
+          <h1>Filter</h1>
+            <label>
+            Brand:
+              <select onChange={this.onChange}>
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+              </select>
+            </label>
+            <label>
+            Model:
+              <select>
+                {options.map(o => <option key={o.id} value={o.id}>{o.text}</option>)}
+              </select>
+            </label>
+        </form>
+      </div>
+    );
+  }
+}
+export default Filter_device;
