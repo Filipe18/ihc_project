@@ -1,16 +1,16 @@
 import React from "react";
 import BannerImage from '../assets/background.jpeg'
-
+import {Link} from 'react-router-dom'
 const lookup = {
   "Samsung": [
-    { id: 'Galaxy S8', text: 'Galaxy S8' },
-    { id: 'Galaxy S9', text: 'Galaxy S9' },
-    { id: 'Galaxy S10', text: 'Galaxy S10' }
+    { id: 'Galaxy S8', text: 'Galaxy S8', href: '/temp_guide' },
+    { id: 'Galaxy S9', text: 'Galaxy S9', href: '/login' },
+    { id: 'Galaxy S10', text: 'Galaxy S10', href: '/temp_guide' }
   ],
   "Apple": [
-    { id: 'Iphone 7', text: 'Iphone 7' },
-    { id: 'Iphone X', text: 'Iphone X' },
-    { id: 'Iphone 12', text: 'Iphone 12' }
+    { id: 'Iphone 7', text: 'Iphone 7', href: '/temp_guide'  },
+    { id: 'Iphone X', text: 'Iphone X', href: '/temp_guide'  },
+    { id: 'Iphone 12', text: 'Iphone 12', href: '/temp_guide'  }
   ]
 }
 
@@ -53,7 +53,10 @@ class Filter_device extends React.Component {
                 {options.map(o => <option key={o.id} value={o.id}>{o.text}</option>)}
               </select>
             </label>
-            <button>Search</button>
+            {options.map(i => <Link to={i.href}>
+              <button>Search</button>
+            </Link>
+            )}
         </form>
       </div>
     );
