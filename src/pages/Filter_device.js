@@ -9,6 +9,7 @@ const lookup = {
   ],
   "Apple": [
     { id: 'Iphone 7', text: 'Iphone 7' },
+    { id: 'Iphone X', text: 'Iphone X' },
     { id: 'Iphone 12', text: 'Iphone 12' }
   ]
 }
@@ -17,7 +18,7 @@ class Filter_device extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dataValue: 'Samsung'
+      dataValue: 'Apple'
     }
   }
 
@@ -34,17 +35,25 @@ class Filter_device extends React.Component {
           <h1>Filter</h1>
             <label>
             Brand:
-              <select onChange={this.onChange}>
+              <select 
+                onChange={this.onChange}
+                name = "brand"
+                required>
+                <option key="default"></option>
                 <option value="Apple">Apple</option>
                 <option value="Samsung">Samsung</option>
               </select>
             </label>
             <label>
             Model:
-              <select>
+              <select
+                name = "model"
+                required>
+                <option key="default"></option>
                 {options.map(o => <option key={o.id} value={o.id}>{o.text}</option>)}
               </select>
             </label>
+            <button>Search</button>
         </form>
       </div>
     );
