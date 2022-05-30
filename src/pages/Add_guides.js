@@ -4,6 +4,8 @@ import '../styles/Add_guides.css'
 import React,{handleSubmission,setSelectedFile,setIsSelected,selectedFile,isSelected} from "react";
 import Popup from 'reactjs-popup';
 import '../styles/popup.css';
+import {Link} from 'react-router-dom'
+
 
 const changeHandler = (event) => {
   setSelectedFile(event.target.files[0]);
@@ -96,9 +98,25 @@ class Add_guides extends React.Component {
 				    <Popup trigger={<button onClick={handleSubmission}>Add Guide</button>}>
               <div className="popup-box">
                 <div className="box">
-                  <span className="close-icon">
-                    olaaaaaaaaaaaaaaaa
-                  </span>
+                    <h1>
+                      Your upload will be verified by our team.
+                      <p>Thanks for helping the community!</p>
+
+                      <Link to="/add_guides">
+                      <button onClick>
+                        Add another guide
+                      </button>
+                      </Link>
+
+                      <Link to="/">
+                      <button onClick>
+                        Home Page
+                      </button>
+                      </Link>
+
+
+                    </h1>
+                  
 
                 </div>
               </div>
