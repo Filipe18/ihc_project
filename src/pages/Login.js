@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import  React,{ useState } from "react";
+
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import Button  from "react-bootstrap/Button";
 import "../styles/Login.css";
 import BannerImage from '../assets/fundo.jpeg'
+import {Link, useNavigate } from 'react-router-dom'
+
+
+
 
 
 export default function Login() {
@@ -15,6 +20,13 @@ export default function Login() {
 
   function handleSubmit(event) {
     event.preventDefault();
+  }
+
+  const navigate = useNavigate();
+  
+  const routeChange = () =>{ 
+    let path = '/'; 
+    navigate.push(path);
   }
 
   return (
@@ -39,11 +51,18 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
-        <Button block="true" size="lg" type="submit" disabled={!validateForm()}>
-          Login
-        </Button>
+        
+          <Link to="/">
+            <Button block="true" size="lg" type="submit" disabled={!validateForm()} onClick={routeChange}>
+              Login
+              
+              </Button> 
+          </Link>
+
+       
       </Form>
     </div>
     </div>
   );
 }
+
