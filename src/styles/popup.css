@@ -10,10 +10,10 @@
    
   .box {
     position: relative;
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
     height: auto;
-    max-height: 70vh;
+    /* max-height: 70vh; */
     margin-top: calc(100vh - 85vh - 20px);
     background: #fff;
     border-radius: 4px;
@@ -21,8 +21,10 @@
     border: 1px solid #999;
     overflow: auto;
   }
+
+  
    
-  /* .close-icon {
+  .close-icon {
     content: 'x'; 
     cursor: pointer;
     position: fixed;
@@ -36,4 +38,5 @@
     text-align: center;
     border: 1px solid #999;
     font-size: 20px;
-  } */
+  }
+ 

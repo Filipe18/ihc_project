@@ -37,12 +37,28 @@ class Add_guides extends React.Component {
     this.setState({ dataValue: value });
   }
 
+  
+    handleClick = () => {
+      this.props.toggle();
+    };
+
+  
+
+
+
   render() {
     const { dataValue } = this.state;
     const options = lookup[dataValue];
+    
+    
+    const handleClose2 = async e => {
+      e.preventDefault();
+      };
+    
+    
     return (
       <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
-        <form>
+        <form onSubmit = {handleClose2}>
           <h1>Add Guides</h1>
 
             <label>
@@ -93,17 +109,22 @@ class Add_guides extends React.Component {
             </label>
             <label>Upload PDF Guide:
                 <input type="file" name="file" onChange={changeHandler}></input>
-		        </label>
-			
-				    <Popup trigger={<button onClick={handleSubmission}>Add Guide</button>}>
+		        
+            
+            
+            </label>
+            
+				    <Popup trigger={<button>Add Guide</button>}>
               <div className="popup-box">
                 <div className="box">
+                
+                    
                     <h1>
                       Your upload will be verified by our team.
                       <p>Thanks for helping the community!</p>
 
                       <Link to="/add_guides">
-                      <button onClick>
+                      <button onClick >
                         Add another guide
                       </button>
                       </Link>
@@ -122,9 +143,11 @@ class Add_guides extends React.Component {
               </div>
             </Popup>
         </form>
+        
       </div>
     );
   }
 }
 
 export default Add_guides
+
