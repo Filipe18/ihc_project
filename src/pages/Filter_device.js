@@ -1,16 +1,19 @@
 import React from "react";
 import BannerImage from '../assets/background.jpeg'
 import {Link} from 'react-router-dom'
+import '../styles/Add_guides.css'
+import '../styles/Home.css'
+
 const lookup = {
   "Samsung": [
-    { id: 'Galaxy S8', text: 'Galaxy S8', href: '/temp_guide' },
-    { id: 'Galaxy S9', text: 'Galaxy S9', href: '/login' },
-    { id: 'Galaxy S10', text: 'Galaxy S10', href: '/temp_guide' }
+    { id: 'Galaxy_s8', text: 'Galaxy S8'},
+    { id: 'Galaxy_s9', text: 'Galaxy S9'},
+    { id: 'Galaxy_s10', text: 'Galaxy S10'}
   ],
   "Apple": [
-    { id: 'Iphone 7', text: 'Iphone 7', href: '/temp_guide'  },
-    { id: 'Iphone X', text: 'Iphone X', href: '/temp_guide'  },
-    { id: 'Iphone 12', text: 'Iphone 12', href: '/temp_guide'  }
+    { id: 'Iphone_7', text: 'Iphone 7'},
+    { id: 'Iphone_X', text: 'Iphone X'},
+    { id: 'Iphone_12', text: 'Iphone 12'}
   ]
 }
 
@@ -20,10 +23,15 @@ class Filter_device extends React.Component {
     this.state = {
       dataValue: 'Apple'
     }
+    this.handleDropdownChange = this.handleDropdownChange.bind(this);
   }
 
   onChange = ({ target: { value } }) => {
     this.setState({ dataValue: value });
+  }
+
+  handleDropdownChange(e) {
+    this.setState({ selectValue: e.target.value });
   }
 
   render() {
@@ -48,15 +56,21 @@ class Filter_device extends React.Component {
             Model:
               <select
                 name = "model"
-                required>
+                required
+                id = "dropdown"
+                onChange={this.handleDropdownChange}>
                 <option key="default"></option>
                 {options.map(o => <option key={o.id} value={o.id} onClick={o.href}>{o.text}</option>)}
               </select>
+              
             </label>
-            {options.map(i => <Link to={i.href}>
-              <button>Search</button>
-            </Link>
-            )}
+            <label>
+              <Link to={`/${this.state.selectValue}`}>
+                <button className="Button">
+                  Search
+                </button>
+              </Link>
+            </label>
         </form>
       </div>
     );
