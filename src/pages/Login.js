@@ -3,7 +3,7 @@ import  React,{ useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button  from "react-bootstrap/Button";
 import '../styles/Home.css'
-import BannerImage from '../assets/fundo.jpeg'
+import BannerImage from '../assets/background.jpeg'
 import {Link, useNavigate } from 'react-router-dom'
 import '../styles/Add_guides.css'
 

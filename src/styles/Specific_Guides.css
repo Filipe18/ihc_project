@@ -1,0 +1,145 @@
+.home {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: black;
+}
+    
+    
+.headerContainer1 {
+    color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 50px;
+    
+}
+
+
+
+.headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 60px;
+    font-weight: 40;
+    color: black;
+
+}
+
+
+.container {
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    margin: 20px;
+    position:relative; 
+    color: black;
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+}
+
+
+.container1 {
+    width: 40%;
+    height: 92%;
+    padding: 5px;
+    margin: 10px; 
+    flex-flow: row;
+    background-color: transparent;
+    background-image: url('phone.png'); 
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-image: url("broken_phone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.container2 {
+    width: 60%;
+    height: 92%;
+    padding: 3%;
+    padding-left: 6%;
+    margin: 10px;
+    flex-flow: column;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    text-align: left;
+    
+
+}
+
+
+.text {
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    margin: 20px;
+    position:relative; 
+    color: black;
+    
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .home {
+    justify-content: center;
+    align-items: center;
+    }
+    .headerContainer h1,
+    .headerContainer p {
+    }
+
+    .headerContainer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    color: black;
+    }
+
+    .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    color: black;
+    }
+
+    .headerContainer p {
+    font-size: 30px;
+    color: black;
+    }
+
+}
+  
