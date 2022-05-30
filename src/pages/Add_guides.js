@@ -2,6 +2,8 @@ import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
 import '../styles/Add_guides.css'
 import React,{handleSubmission,setSelectedFile,setIsSelected,selectedFile,isSelected} from "react";
+import Popup from 'reactjs-popup';
+import '../styles/popup.css';
 
 const changeHandler = (event) => {
   setSelectedFile(event.target.files[0]);
@@ -91,7 +93,16 @@ class Add_guides extends React.Component {
                 <input type="file" name="file" onChange={changeHandler}></input>
 		        </label>
 			
-				    <button onClick={handleSubmission}>Add Guide</button>
+				    <Popup trigger={<button onClick={handleSubmission}>Add Guide</button>}>
+              <div className="popup-box">
+                <div className="box">
+                  <span className="close-icon">
+                    olaaaaaaaaaaaaaaaa
+                  </span>
+
+                </div>
+              </div>
+            </Popup>
         </form>
       </div>
     );
