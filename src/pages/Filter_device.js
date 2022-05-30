@@ -50,7 +50,7 @@ class Filter_device extends React.Component {
                 name = "model"
                 required>
                 <option key="default"></option>
-                {options.map(o => <option key={o.id} value={o.id}>{o.text}</option>)}
+                {options.map(o => <option key={o.id} value={o.id} onClick={o.href}>{o.text}</option>)}
               </select>
             </label>
             {options.map(i => <Link to={i.href}>

@@ -1,8 +1,12 @@
 import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
 import '../styles/Add_guides.css'
-import React from "react";
+import React,{handleSubmission,setSelectedFile,setIsSelected,selectedFile,isSelected} from "react";
 
+const changeHandler = (event) => {
+  setSelectedFile(event.target.files[0]);
+  setIsSelected(true);
+};
 
 const lookup = {
   "Samsung": [
@@ -83,9 +87,11 @@ class Add_guides extends React.Component {
                 <option>Other</option>
               </select>
             </label>
-
-      <button required>Upload PDF Guide</button>
-            <button>Add Guide</button>
+            <label>Upload PDF Guide:
+                <input type="file" name="file" onChange={changeHandler}></input>
+		        </label>
+			
+				    <button onClick={handleSubmission}>Add Guide</button>
         </form>
       </div>
     );
