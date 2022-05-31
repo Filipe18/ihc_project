@@ -26,9 +26,9 @@ function Guide_page() {
 
                 
             </div>
-            <div className="container_last">
+            <Link to="/Ask_Guide">
                 <button class="button" role="button">Did not find what you were looking for? Ask for a guide!</button>
-            </div>
+                </Link>
         </div>
         
     )

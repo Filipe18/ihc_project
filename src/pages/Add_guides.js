@@ -134,8 +134,11 @@ class Add_guides extends React.Component {
                         Home Page
                       </button>
                       </Link>
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> ad9711a5245c1c0d48bf3ccddc6592cb948589c5
                     </h1>
                   
 

@@ -1,5 +1,34 @@
 /* Popup style */
 .popup-box {
+<<<<<<< HEAD
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: 50%;
+  margin-top: 10%;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #999;
+}
+.box > h1 {
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+  letter-spacing: 2px;
+}
+=======
     position: fixed;
     background: #00000050;
     width: 100%;
@@ -40,3 +69,4 @@
     font-size: 20px;
   }
  
+>>>>>>> ad9711a5245c1c0d48bf3ccddc6592cb948589c5

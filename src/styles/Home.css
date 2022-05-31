@@ -27,17 +27,17 @@
 
 .home {
   background-color: whitesmoke;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: rgb(255, 255, 255);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
   }
   
   
@@ -50,20 +50,21 @@
     flex-direction: column;
     padding-top: 10px;
     color: rgb(255, 255, 255);
+    margin-top: -15%;
     
   }
 
   
   
-  .headerContainer h1 {
-    justify-content: center;
-    align-items: center;
-    font-size: 90px;
-    height: 60px;
-    font-weight: 50;
-    color: rgb(255, 255, 255);
-    margin-top: -10%;
-
+  .headerContainer > h1 {
+      display: flex;
+      justify-content: center;
+      font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 2em;
+      font-weight: lighter;
+      margin-top: 0.25em;
+      color: #222;
+      letter-spacing: 2px;
   }
   
   .headerContainer p {
