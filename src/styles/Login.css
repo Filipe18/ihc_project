@@ -5,11 +5,49 @@
   }
 
   .Login form {
-    margin:  auto;
-    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: #fefefe;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tt1 {
+    display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+  letter-spacing: 2px;
+  
+  }
+
+  .input1 {
+    width: 100%;
+    display: block;
+    width: 310px;
+    height: 40px;
+    background-color: rgb(226, 226, 226);
+    margin-top: 10px;
+  }
+
+  .input2 {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
   }
 
   .Login button{
     margin-top: 20%;
+    margin-top: 50px;
   }
 }

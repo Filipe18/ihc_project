@@ -116,9 +116,7 @@ class Add_guides extends React.Component {
             
 				    <Popup trigger={<button>Add Guide</button>}>
               <div className="popup-box">
-                <div className="box">
-                
-                    
+                <div className="box">    
                     <h1>
                       Your upload will be verified by our team.
                       <p>Thanks for helping the community!</p>
@@ -134,14 +132,7 @@ class Add_guides extends React.Component {
                         Home Page
                       </button>
                       </Link>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> ad9711a5245c1c0d48bf3ccddc6592cb948589c5
                     </h1>
-                  
-
                 </div>
               </div>
             </Popup>

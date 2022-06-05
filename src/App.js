@@ -12,10 +12,13 @@ import Iphone_X from './pages/Iphone_X';
 import Iphone_12 from './pages/Iphone_12';
 import Ipad_mini from './pages/Ipad_mini_4';
 import Login from './pages/Login';
-import Filter_device from './pages/Filter_device';
 import SamsungS8_screen from './pages/SamsungS8_screen';
 import SamsungS8_battery from './pages/SamsungS8_battery';
 import Ask_Guide from './pages/Ask_Guide';
+import Filter_phone from './pages/Filter_phone';
+import Filter_PC from './pages/Filter_PC';
+import Filter_tablet from './pages/Filter_tablet';
+import Filter_watch from './pages/Filter_watch';
 
 
 function App() {
@@ -34,9 +37,12 @@ function App() {
           <Route exact path='/Iphone_12' element={<Iphone_12 />}/>
           <Route exact path='/Ipad_mini' element={<Ipad_mini />}/>
           <Route exact path='/login' element={<Login />}/>
-          <Route exact path='/filter_device' element={<Filter_device />}/>
           <Route exact path='/SamsungS8_screen' element={<SamsungS8_screen />}/>
           <Route exact path='/SamsungS8_battery' element={<SamsungS8_battery />}/>
+          <Route exact path='/filter_phone' element={<Filter_phone />}/>
+          <Route exact path='/filter_PC' element={<Filter_PC />}/>
+          <Route exact path='/filter_tablet' element={<Filter_tablet />}/>
+          <Route exact path='/filter_watch' element={<Filter_watch />}/>
           <Route exact path='/ask_guide' element={<Ask_Guide />}/>
         </Routes>
         <Footer />
