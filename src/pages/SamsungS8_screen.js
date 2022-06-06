@@ -2,6 +2,10 @@ import BannerImage from '../assets/fundo.jpeg'
 import PhoneImage from '../styles/screen_s8.jpeg'
 import step1 from '../styles/screen_s8_step1.jpeg'
 import step2 from '../styles/screen_s8_step2.jpeg'
+import step3 from '../styles/screen_s8_step3.jpeg'
+import step4 from '../styles/screen_s8_step4.jpeg'
+import step5 from '../styles/screen_s8_step5.jpeg'
+import author from '../styles/screen_s8_author.jpeg'
 import '../styles/Specific_Guides.css'
 import * as React from 'react';
 
@@ -12,7 +16,7 @@ function Guide_page() {
 
     
     return (
-        <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
+        <div className="home1"  style={{backgroundImage: `url(${BannerImage})`}} >
             <div className="headerContainer1">
                 <p>Samsung Galaxy S8 Screen Replacement</p>
             </div>
@@ -21,28 +25,20 @@ function Guide_page() {
                 </div>
                 <div className="container2">
                     <p>Difficulty: 9/10</p>
-                    <p>Number of steps: 23</p>
-                    <p>Tools: 2</p>
-                    <p>Parts needed: 4</p>
+                    <p>Number of steps: 5</p>
+                    <p>Tools: 4</p>
+                    <p>Parts needed: 5</p>
 
                 </div>
             </div>
             <h2><left>Introduction</left></h2>
             <div className="text">   
-                <p>Use this guide to replace a cracked or broken display on your Samsung Galaxy S8. This guide instructs you to replace only the display while leaving the original frame, motherboard, and battery in place. However, some replacement screens for this phone come pre-installed in a new frame (a.k.a. chassis), which requires a very different procedure—transplanting your phone's internals and installing a new battery. Make sure you have the correct part before starting this guide.
-
-This guide involves removing the rear glass cover, you will need replacement adhesive to reattach the back cover to the phone. If your replacement screen does not come with adhesive, you will need to use tape to secure it as well.
-
-If the frame is damaged or bent, it's important to replace it, or else the new screen may not mount correctly and can suffer damage from uneven pressure.
-
-The process of separating the display from the frame usually destroys the display, so don't follow this guide unless you intend to replace the display.</p>
+                <p>Use this guide to replace a cracked or broken display on your Samsung Galaxy S8. This guide instructs you to replace only the display while leaving the original frame, motherboard, and battery in place. However, some replacement screens for this phone come pre-installed in a new frame (a.k.a. chassis), which requires a very different procedure—transplanting your phone's internals and installing a new battery. Make sure you have the correct part before starting this guide.</p>
             </div> 
             <div className="big_container_no_border">
                 <div className="tools">
                     <h4>Tools:</h4>
-                    <p>- iOpener</p>
                     <p>- Suction Handle</p>
-                    <p>- iFixit Opening Picks (Set of 6)</p>
                     <p>- Spudger</p>
                     <p>- Tweezers</p>
                     <p>- Phillips #00 Screwdriver</p>
@@ -86,6 +82,69 @@ The process of separating the display from the frame usually destroys the displa
 
                 </div>
             </div>
+
+            <div className="text">   
+                <h3>Step 3:</h3>
+            </div> 
+            <div className="big_container_no_border">
+                <div className="step_image" style={{backgroundImage: `url(${step3})`}}>
+                    <p></p>
+                </div>
+                <div className="step_text">
+                    <p>- Remove eleven 3.7 mm screws using a Phillips #000 screwdriver.</p>
+                    <p>- Remove the NFC antenna and charging coil assembly.</p>
+                </div>
+            </div>
+
+            <div className="text">   
+                <h3>Step 4:</h3>
+            </div> 
+            <div className="big_container_no_border">
+                <div className="step_image" style={{backgroundImage: `url(${step4})`}}>
+                    <p></p>
+                </div>
+                <div className="step_text">
+                    <p>- Use the flat end of a spudger to disconnect the battery connector.</p>
+                    <p>Note: Although the battery is not shown in the next steps, there is no need to remove it for this guide. Just disconnect the battery and you're good to go.</p>
+                </div>
+            </div>
+
+
+            <div className="text">   
+                <h3>Step 5:</h3>
+            </div> 
+            <div className="big_container_no_border">
+                <div className="step_image" style={{backgroundImage: `url(${step5})`}}>
+                    <p></p>
+                </div>
+                <div className="step_text">
+                    <p>- Once the screen is warm to the touch, apply a suction cup as close to the heated edge of the phone as you can while avoiding the curved edge.</p>
+                    <p>Note: The suction cup will not make a good seal on the curved portion of the glass.</p>
+                    <p>- If the phone's screen is cracked, the suction cup may not stick. Try lifting it with strong tape, or superglue the suction cup in place and allow it to cure so you can proceed.</p>
+                </div>
+            </div>    
+            
+
+            <h2><left>Finish</left></h2>
+          
+            <p>And its done! now follow the steps back to reasemble your device</p>
+            
+
+            <div className="author">
+                <div className="author_image" style={{backgroundImage: `url(${author})`}}>
+                </div>
+                <div className="author_text">
+                    <p>Author: John Dough</p>
+                    <p>Rating: 2600 points</p>
+
+                </div>
+            </div>
+
+            <div className='button_container'>
+               <button class="button" role="button"><p>Did you like the guide?</p>give the author +10 points!<p></p></button>
+            </div>
+
+
                 
             
         </div>
