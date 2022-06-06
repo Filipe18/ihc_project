@@ -16,9 +16,9 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <Link to="/">
+                <NavLink to="/">
                     <img src={Logo} />
-                </Link>
+                </NavLink>
                 <div className="hiddenLinks">
                     <NavLink activeStyle={{color: "red"}}  to="/add_guides" > Add Guides </NavLink>
                 <NavLink to="/about_us"> About </NavLink>
@@ -27,9 +27,9 @@ function Navbar() {
                 </div>
             </div>
             <div className="rightSide">
-                <NavLink activeStyle={{color: "red"}}  to="/add_guides" > Add Guides </NavLink>
-                <NavLink to="/about_us"> About </NavLink>
-                <NavLink to="/login"> Login </NavLink>
+                <NavLink to="/add_guides" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> Add Guides </NavLink>
+                <NavLink to="/about_us" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> About </NavLink>
+                <NavLink to="/login" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> Login </NavLink>
                 <button onClick={toggleNavbar}>
                     <ReorderIcon />
                 </button>
