@@ -67,6 +67,8 @@ display: none;
 width: 70px;
 margin: 5px;
 }
+
+
 @media only screen and (max-width: 900px) {
 .navbar .rightSide a {
     width: 70px;
@@ -99,4 +101,5 @@ margin: 5px;
 .hiddenLinks {
     display: none;
 }
+
 }
