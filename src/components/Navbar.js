@@ -21,14 +21,18 @@ function Navbar() {
                 </NavLink>
                 <div className="hiddenLinks">
                     <NavLink activeStyle={{color: "red"}}  to="/add_guides" > Add Guides </NavLink>
-                <NavLink to="/about_us"> About </NavLink>
+                <Link to="/about_us"> About </Link>
                 <NavLink to="/login"> Login </NavLink>
                     
                 </div>
             </div>
             <div className="rightSide">
                 <NavLink to="/add_guides" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> Add Guides </NavLink>
-                <NavLink to="/about_us" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> About </NavLink>
+                
+                <div onClick={() => window.location.replace("/#section1")} className="aboutStyle">
+                    <NavLink to>About</NavLink>
+                </div>
+                
                 <NavLink to="/login" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'blue' : '#f0f0f0', })}> Login </NavLink>
                 <button onClick={toggleNavbar}>
                     <ReorderIcon />

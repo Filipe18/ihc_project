@@ -50,7 +50,7 @@
     flex-direction: column;
     padding-top: 10px;
     color: rgb(255, 255, 255);
-    margin-top: -15%;
+    margin-top: 0%;
     
   }
 
@@ -225,7 +225,23 @@
     .button-67 {
       padding: 24px;
     }
+    
+
+    
   }
+
+  
+
+
+  .aboutText{
+    width: 50%;
+    margin-left: 25%;
+
+  
+
+
+  }
+
 
 
   
