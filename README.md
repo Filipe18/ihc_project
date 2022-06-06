@@ -1,11 +1,11 @@
 # ihc_project
----------------------feito---------------------------
-logotipo com nome do site em vez de "home"
-download do pfd
-categoria devia ser descrição do problema	
------------------------------------------------------
+	---------------------feito---------------------------
+		logotipo com nome do site em vez de "home"
+		download do pfd
+		categoria devia ser descrição do problema	
+	-----------------------------------------------------
 
--------------------por fazer-------------------------
+	-------------------por fazer-------------------------
     Renato?
       pesquisa (não so com dropdown)	
       filtragem nas avarias
