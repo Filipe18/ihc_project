@@ -1,8 +1,8 @@
 # ihc_project
 	---------------------feito---------------------------
-		logotipo com nome do site em vez de "home"
-		download do pfd
-		categoria devia ser descrição do problema	
+	logotipo com nome do site em vez de "home"
+	download do pfd
+	categoria devia ser descrição do problema	
 	-----------------------------------------------------
 
 	-------------------por fazer-------------------------
@@ -24,10 +24,10 @@
       vai ser para fazer a compra das partes?
       add guides força o login
 
------------------------------------------------------
+	-----------------------------------------------------
 
 
--------------Só no fim/não importantes---------------
-tamanhos de letra
------------------------------------------------------
+	-------------Só no fim/não importantes---------------
+	tamanhos de letra
+	-----------------------------------------------------
 		
