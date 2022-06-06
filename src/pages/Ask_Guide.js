@@ -55,7 +55,7 @@ class Ask_Guide extends React.Component {
                 <input type="text" name="model" />
             </label>
             <label>
-            Category:
+            Problem:
                 <input type="text" name="category" />
             </label>
             <Popup trigger={<button>Request</button>}>
