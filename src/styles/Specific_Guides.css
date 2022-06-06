@@ -1,7 +1,7 @@
 .home1 {
     background-color: whitesmoke;
     width: 100%;
-    height: 420vh;
+    height: 430vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,19 +211,27 @@
 
 }
 
-.button_container {
-    width: 15%;
-    height: 5%;
-    padding: 2px;
-    margin: 5px;
-    position:relative; 
-    color: black;
-    border-radius: 10px;
-    background: transparent;
+
+.button_container1{
     display: flex;
-}
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9; 
+    padding: 15px;
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    line-height: 150px;
+    margin-right: 7%;
+    margin-left: 7%;
+    
+  }
 
 .button {
+    height: 100%;
     background-color: #c5c5c5;
     border: none;
     color: black;
@@ -233,7 +241,7 @@
     display: inline-block;
     font-size: 16px;
     border: 1px solid black;
-  }
+}
 
 
 

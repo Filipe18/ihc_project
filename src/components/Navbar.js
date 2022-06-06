@@ -21,14 +21,14 @@ function Navbar() {
                 </Link>
                 <div className="hiddenLinks">
                     <NavLink activeStyle={{color: "red"}}  to="/add_guides" > Add Guides </NavLink>
-                <NavLink to="/about"> About </NavLink>
+                <NavLink to="/about_us"> About </NavLink>
                 <NavLink to="/login"> Login </NavLink>
                     
                 </div>
             </div>
             <div className="rightSide">
                 <NavLink activeStyle={{color: "red"}}  to="/add_guides" > Add Guides </NavLink>
-                <NavLink to="/about"> About </NavLink>
+                <NavLink to="/about_us"> About </NavLink>
                 <NavLink to="/login"> Login </NavLink>
                 <button onClick={toggleNavbar}>
                     <ReorderIcon />

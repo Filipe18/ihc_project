@@ -95,7 +95,7 @@ class Add_guides extends React.Component {
               </select>
             </label>
             <label>
-            Problem:
+            Problem description:
               <select
                 name="category"
                 required>

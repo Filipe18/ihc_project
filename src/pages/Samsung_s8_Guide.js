@@ -14,13 +14,14 @@ function Guide_page() {
             <div className="headerContainer1">
                 <p>Samsung Galaxy S8 Repair Guides</p>
             </div>
+
             <div className="container">
                 <div className="container_guides">
                     <Link to="/SamsungS8_screen">
-                        <button class="button" role="button">Samsung Galaxy S8 Screen Replacement</button>
+                        <button class="button2" role="button">Samsung Galaxy S8 Screen Replacement</button>
                     </Link>
                     <Link to="/SamsungS8_battery">
-                        <button class="button" role="button">Samsung Galaxy S8 Battery Replacement</button>
+                        <button class="button2" role="button">Samsung Galaxy S8 Battery Replacement</button>
                     </Link>
                 </div>
 
@@ -37,3 +38,6 @@ function Guide_page() {
 }
 
 export default Guide_page
+
+
+

@@ -126,8 +126,10 @@ function Guide_page() {
             
 
             <h2><left>Finish</left></h2>
-          
+            <p>You can download the file here! <a href='/Samsung_s8_screen.pdf' download>Click to download</a></p>
+            
             <p>And its done! now follow the steps back to reasemble your device</p>
+            <p>This guide was checked by out team and verified. If you have any problems make sure you followed all the steps or contact us, contact info on "about us" page</p>
             
 
             <div className="author">
@@ -139,9 +141,9 @@ function Guide_page() {
 
                 </div>
             </div>
-
-            <div className='button_container'>
-               <button class="button" role="button"><p>Did you like the guide?</p>give the author +10 points!<p></p></button>
+            
+            <div className='button_container1'>
+               <button class="button" role="button"><p>Did you like the guide?</p>give the author +1 point!<p></p></button>
             </div>
 
 
