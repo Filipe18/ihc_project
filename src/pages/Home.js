@@ -16,6 +16,7 @@ function Home() {
         backgroundSize: 'cover', 
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',}} >
+            <div className="space"></div>
             <form className="home_form">
             <div className="headerContainer">
             
@@ -62,6 +63,10 @@ function Home() {
                 In this post, we'll give you three different ways to create a professional about us page for your online store, blog, or other website - use our about us page generator, use the fill-in-the-blank about us template below, or create your own custom page using the about us examples within this article.
                 </div>
                 
+                
+
+
+
             </div>
             </form>
         </div>

@@ -6,14 +6,14 @@ import '../styles/Home.css'
 
 const lookup = {
   "Samsung": [
-    { id: 'Galaxy_s8', text: 'Galaxy S8'},
-    { id: 'Galaxy_s9', text: 'Galaxy S9'},
-    { id: 'Galaxy_s10', text: 'Galaxy S10'}
+    { id: 'Galaxy_tabA7', text: 'Galaxy Tab A7'},
+    { id: 'Galaxy_tabS', text: 'Galaxy Tab S'},
+    { id: 'Galaxy_tabS2', text: 'Galaxy Tab S2'}
   ],
   "Apple": [
-    { id: 'Iphone_7', text: 'Iphone 7'},
-    { id: 'Iphone_X', text: 'Iphone X'},
-    { id: 'Iphone_12', text: 'Iphone 12'}
+    { id: 'Ipad_mini', text: 'Ipad Mini'},
+    { id: 'Ipad_pro', text: 'Ipad Pro'},
+    { id: 'Ipad_97', text: 'Ipad 9.7'}
   ]
 }
 
@@ -40,7 +40,7 @@ class Filter_device extends React.Component {
     return (
       <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
         <form>
-          <h1>Filter</h1>
+          <h1>Filter Tablet:</h1>
             <label>
             Brand:
               <select 

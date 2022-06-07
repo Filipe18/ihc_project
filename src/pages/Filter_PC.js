@@ -5,15 +5,15 @@ import '../styles/Add_guides.css'
 import '../styles/Home.css'
 
 const lookup = {
-  "Samsung": [
-    { id: 'Galaxy_s8', text: 'Galaxy S8'},
-    { id: 'Galaxy_s9', text: 'Galaxy S9'},
-    { id: 'Galaxy_s10', text: 'Galaxy S10'}
+  "Lenovo": [
+    { id: 'Legion_Y540', text: 'Legion Y540'},
+    { id: 'Ideapad_3', text: 'Ideapad 3'},
+    { id: 'Legion_5i', text: 'Legion 5i'}
   ],
-  "Apple": [
-    { id: 'Iphone_7', text: 'Iphone 7'},
-    { id: 'Iphone_X', text: 'Iphone X'},
-    { id: 'Iphone_12', text: 'Iphone 12'}
+  "Asus": [
+    { id: 'VivoBook_S15', text: 'VivoBook S15'},
+    { id: 'X550C', text: 'X550C'},
+    { id: 'RogStrix_g15', text: 'Rog Strix G15'}
   ]
 }
 
@@ -21,7 +21,7 @@ class Filter_device extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dataValue: 'Apple'
+      dataValue: 'Asus'
     }
     this.handleDropdownChange = this.handleDropdownChange.bind(this);
   }
@@ -40,7 +40,7 @@ class Filter_device extends React.Component {
     return (
       <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
         <form>
-          <h1>Filter</h1>
+          <h1>Filter PC:</h1>
             <label>
             Brand:
               <select 
@@ -48,8 +48,8 @@ class Filter_device extends React.Component {
                 name = "brand"
                 required>
                 <option key="default"></option>
-                <option value="Apple">Apple</option>
-                <option value="Samsung">Samsung</option>
+                <option value="Asus">Asus</option>
+                <option value="Lenovo">Lenovo</option>
               </select>
             </label>
             <label>

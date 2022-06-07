@@ -64,13 +64,6 @@ class Ask_Guide extends React.Component {
                     <h1>
                      Our team will take a look to your request.
                       <p>Thanks for using our services!</p>
-
-                      <Link to="/ask_guide">
-                      <button onClick>
-                        Re-enter data
-                      </button>
-                      </Link>
-
                       <Link to="/">
                       <button onClick>
                         Done
@@ -82,6 +75,7 @@ class Ask_Guide extends React.Component {
             </Popup>
         </form>
       </div>
+      
     );
   }
 }

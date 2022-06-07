@@ -9,7 +9,7 @@ import step5 from '../styles/screen_s8_step5.jpeg'
 import author from '../styles/screen_s8_author.jpeg'
 import '../styles/Specific_Guides.css'
 import * as React from 'react';
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -145,12 +145,16 @@ function Guide_page() {
             
             <div className='button_container1'>
                 <Popup trigger={<button>Upvote the guide</button>}>
-                    <div className="popup-box">
-                        <div className="box">  
-                            <div className="text">   
+                    <div className="popup-box1">
+                        <div className="box1">  
                                 <h1>Thanks for the suport</h1>
-                            </div> 
             
+
+                                <Link to="/SamsungS8_screen">
+                                    <button onClick >
+                                        Close
+                                    </button>
+                                </Link>
                         </div>
                     </div>
                 </Popup>

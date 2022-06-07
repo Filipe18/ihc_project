@@ -40,7 +40,7 @@ class Filter_device extends React.Component {
     return (
       <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>            
         <form>
-          <h1>Filter</h1>
+          <h1>Filter Phone:</h1>
             <label>
             Brand:
               <select 
