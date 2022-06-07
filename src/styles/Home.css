@@ -25,10 +25,10 @@
   letter-spacing: 2px;
 }
 
-.home {
+.home2 {
   background-color: whitesmoke;
   width: 100%;
-  height: 90vh;
+  height: 190vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,14 +43,11 @@
   
   .headerContainer {
     width: 100%;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
     color: rgb(255, 255, 255);
-    margin-top: 0%;
+    margin-top: 20%;
     
   }
 
@@ -62,7 +59,7 @@
       font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
       font-size: 2em;
       font-weight: lighter;
-      margin-top: 0.25em;
+      margin-top: -5.25em;
       color: #222;
       letter-spacing: 2px;
   }
@@ -89,7 +86,7 @@
     line-height: 150px;
     margin-right: 7%;
     margin-left: 7%;
-    
+    margin-top: -7%;
   }
 
   .button_phone {
@@ -107,13 +104,25 @@
     background-image: url('phone.png'); 
     background-size: contain;
     background-repeat: no-repeat;
-    
+    color: transparent;
+    text-decoration: none;
    
-   
-    -webkit-text-stroke: 1.5px black;
+  }
+
+  .button_phone > h1{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    color: transparent;
   }
 
   .button_watch {
+    line-height: 0;
     width: 250px;
     height: 250px;
     outline-style:initial;
@@ -127,13 +136,24 @@
     background-image: url('watch.png'); 
     background-size: contain;
     background-repeat: no-repeat;
-    
-   
-   
-    -webkit-text-stroke: 1.5px black;
+    color: transparent;
+    text-decoration: none;
+  }
+
+  .button_watch > h1{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    color: transparent;
   }
 
   .button_pc {
+    line-height: 0;
     width: 250px;
     height: 250px;
     outline-style:initial;
@@ -147,13 +167,25 @@
     background-image: url('laptop.png'); 
     background-size: contain;
     background-repeat: no-repeat;
+    color: transparent;
+    text-decoration: none;
+  }
+
+  .button_pc > h1{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    color: transparent;
     
-   
-   
-    -webkit-text-stroke: 1.5px black;
   }
 
   .button_tablet {
+    line-height: 0;
     width: 250px;
     height: 250px;
     outline-style:initial;
@@ -167,29 +199,141 @@
     background-image: url('tablet.png'); 
     background-size: contain;
     background-repeat: no-repeat;
-    
-   
-   
-    -webkit-text-stroke: 1.5px black;
+    color: transparent;
+    text-decoration: none;
+  }
+  
+  .button_tablet > h1{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    color: transparent;
   }
 
-  .button_phone:hover {
+  .button_phone > h1:hover {
+    transform: scale(1.2);
+    line-height: 0;
+    width: 150px;
+    color: #ffffff;
+    height: 50px;
+    outline-style:initial;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5c5;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight:300;
+    background-color: #000000;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .button_tablet > h1:hover {
     background-color: #c5c5c5;
     transform: scale(1.2);
+    line-height: 0;
+    width: 150px;
+    color: #ffffff;
+    height: 50px;
+    outline-style:initial;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5c5;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight:300;
+    background-color: #000000;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .button_pc > h1:hover {
+    background-color: #c5c5c5;
+    transform: scale(1.2);
+    line-height: 0;
+    width: 80px;
+    color: #ffffff;
+    height: 50px;
+    outline-style:initial;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5c5;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight:300;
+    background-color: #000000;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .button_watch > h1:hover {
+    background-color: #c5c5c5;
+    transform: scale(1.2);
+    line-height: 0;
+    width: 180px;
+    color: #ffffff;
+    height: 50px;
+    outline-style:initial;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5c5;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight:300;
+    background-color: #000000;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
   }
   .button_pc:hover {
     background-color: #c5c5c5;
     transform: scale(1.2);
+    color:transparent
+  }
+  .button_phone:hover {
+    background-color: #c5c5c5;
+    transform: scale(1.2);
+    color:transparent;
   }
   .button_tablet:hover {
     background-color: #c5c5c5;
     transform: scale(1.2);
+    color: transparent;
   }
   .button_watch:hover {
     background-color: #c5c5c5;
     transform: scale(1.2);
+    color: transparent;
   }
   
+  .home_form {
+    width: 1400px;
+    margin-top: 6%;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+  
+  
+  .home_form > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 0.25em;
+    color: #222;
+    letter-spacing: 2px;
+  }
+  
+
   @media only screen and (max-width: 650px) {
     .home {
       justify-content: center;
@@ -234,8 +378,15 @@
 
 
   .aboutText{
-    width: 50%;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.4em;
+    font-weight: lighter;
+    margin-top: 0.25em;
+    color: #222;
+    letter-spacing: 2px;
+    line-height: 1.7;
 
   
 

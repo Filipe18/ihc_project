@@ -1,4 +1,5 @@
 import BannerImage from '../assets/fundo.jpeg'
+import Popup from 'reactjs-popup'
 import PhoneImage from '../styles/screen_s8.jpeg'
 import step1 from '../styles/screen_s8_step1.jpeg'
 import step2 from '../styles/screen_s8_step2.jpeg'
@@ -137,13 +138,22 @@ function Guide_page() {
                 </div>
                 <div className="author_text">
                     <p>Author: John Dough</p>
-                    <p>Rating: 2600 points</p>
+                    <p>Total Upvotes: 2600 points</p>
 
                 </div>
             </div>
             
             <div className='button_container1'>
-               <button class="button" role="button"><p>Did you like the guide?</p>give the author +1 point!<p></p></button>
+                <Popup trigger={<button>Upvote the guide</button>}>
+                    <div className="popup-box">
+                        <div className="box">  
+                            <div className="text">   
+                                <h1>Thanks for the suport</h1>
+                            </div> 
+            
+                        </div>
+                    </div>
+                </Popup>
             </div>
 
 

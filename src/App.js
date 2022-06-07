@@ -45,7 +45,7 @@ function App() {
           <Route exact path='/filter_watch' element={<Filter_watch />}/>
           <Route exact path='/ask_guide' element={<Ask_Guide />}/>
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
        
     </div>

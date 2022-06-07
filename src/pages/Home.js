@@ -1,6 +1,6 @@
 //import React from 'react'
 import {Link} from "react-router-dom"
-import BannerImage from '../assets/fundo.jpeg'
+import BannerImage from '../assets/background.jpeg'
 import '../styles/Home.css'
 import * as React from 'react';
 
@@ -10,8 +10,13 @@ function Home() {
 
     
     return (
-        <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
-            
+
+
+        <div className="home2"  style={{backgroundImage: `url(${BannerImage})`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center center',
+        backgroundRepeat: 'no-repeat',}} >
+            <form className="home_form">
             <div className="headerContainer">
             
                 <h1>What are you trying to fix?</h1>
@@ -19,27 +24,28 @@ function Home() {
        
             <div className="button_container">
                 <div className="button_container">
-                    <Link to="/filter_phone">
-                        <button class="button_phone" role="button"></button>
+                    <Link to="/filter_phone" style={{ textDecoration: 'none' }}>
+                        <button class="button_phone" role="button"><h1>Phone</h1></button>
                     </Link>  
                 </div>
                 <div className="button_container">
-                    <Link to="/filter_tablet">
-                        <button class="button_tablet" role="button"></button>
+                    <Link to="/filter_tablet" style={{ textDecoration: 'none' }}>
+                        <button class="button_tablet" role="button"><h1>Tablet</h1></button>
                     </Link>
                 </div>
                 <div className="button_container">
-                    <Link to="/filter_PC">
-                        <button class="button_pc" role="button"></button>
+                    <Link to="/filter_PC" style={{ textDecoration: 'none' }}>
+                        <button class="button_pc" role="button"><h1>PC</h1></button>
                     </Link>
                 </div>
                 <div className="button_container">
-                    <Link to="/filter_watch">
-                        <button class="button_watch" role="button"></button>
+                    <Link to="/filter_watch" style={{ textDecoration: 'none' }}>
+                        <button class="button_watch" role="button"><h1>SmartWatch</h1></button>
                     </Link>
                 </div>
             </div>
-
+            </form>
+            <form className="home_form">
             <div className="aboutSection" id='section1'>
                 
                 <div className="headerContainer">
@@ -57,6 +63,7 @@ function Home() {
                 </div>
                 
             </div>
+            </form>
         </div>
         
     )
