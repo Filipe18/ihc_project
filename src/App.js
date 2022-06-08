@@ -19,6 +19,12 @@ import Filter_phone from './pages/Filter_phone';
 import Filter_PC from './pages/Filter_PC';
 import Filter_tablet from './pages/Filter_tablet';
 import Filter_watch from './pages/Filter_watch';
+import Store from './pages/Store';
+import Parts from './pages/Parts';
+import Tools from './pages/Tools';
+import Drivers_Wrenches from './pages/Drivers_Wrenches';
+
+
 
 
 function App() {
@@ -44,6 +50,11 @@ function App() {
           <Route exact path='/filter_tablet' element={<Filter_tablet />}/>
           <Route exact path='/filter_watch' element={<Filter_watch />}/>
           <Route exact path='/ask_guide' element={<Ask_Guide />}/>
+          <Route exact path='/Store' element={<Store />}/>
+          <Route exact path='/Parts' element={<Parts />}/>
+          <Route exact path='/Tools' element={<Tools />}/>
+          <Route exact path='/Drivers_Wrenches' element={<Drivers_Wrenches />}/>
+          
         </Routes>
         <Footer/>
       </Router>

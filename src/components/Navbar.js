@@ -32,6 +32,8 @@ function Navbar() {
                 <div onClick={() => window.location.replace("/#section1")} className="aboutStyle">
                     <NavLink to>About</NavLink>
                 </div>
+
+                <NavLink to="/Store" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Store </NavLink>
                 
                 <NavLink to="/login" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Login </NavLink>
                 <button onClick={toggleNavbar}>

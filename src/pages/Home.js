@@ -58,14 +58,9 @@ function Home() {
 
                 <div class="aboutText">
 
-                An About Us page helps your company make a good first impression, and is critical for building customer trust and loyalty. An About Us page should make sure to cover basic information about the store and its founders, explain the company's purpose and how it differs from the competition, and encourage discussion and interaction. Here are some free templates, samples, and example About Us pages to help your ecommerce store stand out from the crowd.
-                When it comes to personalizing your online store, nothing is more effective than an About Us page. This is a quick summary of your company's history and purpose, and should provide a clear overview of the company's brand story. A great About Us page can help tell your brand story, establish customer loyalty, and turn your bland ecommerce store into an well-loved brand icon. Most impo
-                In this post, we'll give you three different ways to create a professional about us page for your online store, blog, or other website - use our about us page generator, use the fill-in-the-blank about us template below, or create your own custom page using the about us examples within this article.
+                <p>Things break. Wear and tear is normal, but throwing away almost-functional devices shouldn't be. We have everything you need to fix your gadgets yourself: quality replacement parts, precision tools, and free step-by-step instructions verified by our in-house repair experts. We help thousands of people repair their devices every day. And every time you fix something, you help the planet by keeping e-waste from entering the landfill. You can contact us at fakeemail@fake.com or by our customer support line at 234123123</p>
+                
                 </div>
-                
-                
-
-
 
             </div>
             </form>

@@ -14,7 +14,7 @@
     }
     
     
-.headerContainer1 {
+.headerContainer_Sp_Guide {
     color: black;
     width: 100%;
     height: 150px;
@@ -29,7 +29,7 @@
 
 
 
-.headerContainer h1 {
+.headerContainer_Sp_Guide h1 {
     justify-content: center;
     align-items: center;
     font-size: 50px;
@@ -297,11 +297,11 @@
     align-items: center;
     
     }
-    .headerContainer h1,
-    .headerContainer p {
+    .headerContainer_Sp_Guide h1,
+    .headerContainer_Sp_Guide p {
     }
 
-    .headerContainer {
+    .headerContainer_Sp_Guide {
     width: 100%;
     height: 150px;
     display: flex;
@@ -312,13 +312,13 @@
     color: black;
     }
 
-    .headerContainer h1 {
+    .headerContainer_Sp_Guide h1 {
     font-size: 40px;
     height: 30px;
     color: black;
     }
 
-    .headerContainer p {
+    .headerContainer_Sp_Guide p {
     font-size: 30px;
     color: black;
     }

@@ -11,7 +11,7 @@ function Guide_page() {
     
     return (
         <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
-            <div className="headerContainer1">
+            <div className="headerContainer_Sp_Guide">
                 <p>Samsung Galaxy S8 Battery Replacement</p>
             </div>
             <div className="container">

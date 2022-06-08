@@ -18,7 +18,7 @@ function Guide_page() {
     
     return (
         <div className="home1"  style={{backgroundImage: `url(${BannerImage})`}} >
-            <div className="headerContainer1">
+            <div className="headerContainer_Sp_Guide">
                 <p>Samsung Galaxy S8 Screen Replacement</p>
             </div>
             <div className="container">
@@ -130,7 +130,8 @@ function Guide_page() {
             <p>You can download the file here! <a href='/Samsung_s8_screen.pdf' download>Click to download</a></p>
             
             <p>And its done! now follow the steps back to reasemble your device</p>
-            <p>This guide was checked by out team and verified. If you have any problems make sure you followed all the steps or contact us, contact info on "about us" page</p>
+            <p>This guide was checked by out team and verified. If you have any problems make sure you followed all the steps or contact us, contact info on our home page</p>
+                    
             
 
             <div className="author">
