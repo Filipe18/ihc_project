@@ -18,11 +18,26 @@ function Guide_page() {
             <div className="container">
                 <div className="container_guides">
                     <Link to="/SamsungS8_screen">
-                        <button class="button2" role="button">Samsung Galaxy S8 Screen Replacement</button>
+                        <button class="button2" role="button">Screen Replacement</button>
                     </Link>
                     <Link to="/SamsungS8_battery">
-                        <button class="button2" role="button">Samsung Galaxy S8 Battery Replacement</button>
+                        <button class="button2" role="button">Battery Replacement</button>
                     </Link>
+                    <Link to="/SamsungS8_sensor">
+                        <button class="button2" role="button">Fingerprint Sensor Replacement</button>
+                    </Link>
+                    <Link to="/SamsungS8_back_glass">
+                        <button class="button2" role="button">Back Glass Replacement</button>
+                    </Link>
+                    <Link to="/SamsungS8_speaker">
+                        <button class="button2" role="button">Speaker Replacement</button>
+                    </Link>
+                    <Link to="/SamsungS8_mother">
+                        <button class="button2" role="button">Motherboard Replacement</button>
+                    </Link>
+                
+                    
+                    
                 </div>
 
                 

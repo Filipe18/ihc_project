@@ -1,7 +1,7 @@
 .home_tools_parts {
     background-color: whitesmoke;
     width: 100%;
-    height: auto;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +263,7 @@
   .button_drivers_wrenches > h1:hover {
     transform: scale(1.2);
     line-height: 0;
-    width: 150px;
+    width: 220px;
     color: #ffffff;
     height: 50px;
     outline-style:initial;
@@ -283,7 +283,7 @@
     background-color: #c5c5c5;
     transform: scale(1.2);
     line-height: 0;
-    width: 150px;
+    width: 200px;
     color: #ffffff;
     height: 50px;
     outline-style:initial;
@@ -303,7 +303,7 @@
     background-color: #c5c5c5;
     transform: scale(1.2);
     line-height: 0;
-    width: 80px;
+    width: 210px;
     color: #ffffff;
     height: 50px;
     outline-style:initial;
@@ -353,7 +353,7 @@
     transform: scale(1.2);
     color: transparent;
   }
-  .button_watch:hover {
+  .button_consumables:hover {
     background-color: #c5c5c5;
     transform: scale(1.2);
     color: transparent;

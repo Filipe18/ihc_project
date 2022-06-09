@@ -28,17 +28,17 @@ function Tools() {
                     </Link>  
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_tablet" style={{ textDecoration: 'none' }}>
+                    <Link to="/Prying_Opening" style={{ textDecoration: 'none' }}>
                         <button class="button_prying_opening" role="button"><h1>Prying/Opening</h1></button>
                     </Link>
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_PC" style={{ textDecoration: 'none' }}>
+                    <Link to="/Griping_Cutting" style={{ textDecoration: 'none' }}>
                         <button class="button_griping_cutting" role="button"><h1>Gripping/Cutting</h1></button>
                     </Link>
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_watch" style={{ textDecoration: 'none' }}>
+                    <Link to="/Consumables" style={{ textDecoration: 'none' }}>
                         <button class="button_consumables" role="button"><h1>Consumables</h1></button>
                     </Link>
                 </div>

@@ -20,27 +20,27 @@ function Parts() {
             <form className="home_form">
             <div className="headerContainer">
             
-                <h1>Parts</h1>
+                <h1>What type of device do you need the parts for?</h1>
             </div>
        
             <div className="button_container1">
                 <div className="button_container1">
-                    <Link to="/filter_phone" style={{ textDecoration: 'none' }}>
+                    <Link to="/filter_phone_parts" style={{ textDecoration: 'none' }}>
                         <button class="button_phone" role="button"><h1>Phone</h1></button>
                     </Link>  
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_tablet" style={{ textDecoration: 'none' }}>
+                    <Link to="/filter_tablet_parts" style={{ textDecoration: 'none' }}>
                         <button class="button_tablet" role="button"><h1>Tablet</h1></button>
                     </Link>
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_PC" style={{ textDecoration: 'none' }}>
+                    <Link to="/filter_PC_parts" style={{ textDecoration: 'none' }}>
                         <button class="button_pc" role="button"><h1>PC</h1></button>
                     </Link>
                 </div>
                 <div className="button_container1">
-                    <Link to="/filter_watch" style={{ textDecoration: 'none' }}>
+                    <Link to="/filter_watch_parts" style={{ textDecoration: 'none' }}>
                         <button class="button_watch" role="button"><h1>SmartWatch</h1></button>
                     </Link>
                 </div>
