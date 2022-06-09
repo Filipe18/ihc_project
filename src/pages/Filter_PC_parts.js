@@ -6,9 +6,9 @@ import '../styles/Home.css'
 
 const lookup = {
   "Lenovo": [
-    { id: 'Legion_Y540', text: 'Legion Y540'},
+    { id: 'Legion_Y540', text: 'Legion Y7000'},
     { id: 'Ideapad_3', text: 'Ideapad 3'},
-    { id: 'Lenovo_Legion5i', text: 'Legion 5i'}
+    { id: 'Lenovo_LegionY530', text: 'Legion Y530'}
   ],
   "Asus": [
     { id: 'VivoBook_S15', text: 'VivoBook S15'},

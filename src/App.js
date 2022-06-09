@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Galaxy_s8 from './pages/Samsung_s8_Guide';
 import Galaxy_s9 from './pages/Samsung_s9_Guide';
 import Galaxy_s10 from './pages/Samsung_s10_Guide';
-import Lenovo_Legion5i from './pages/Lenovo_Legion5i_Guide';
+import Lenovo_LegionY530 from './pages/Lenovo_LegionY530_Guide';
 import Iphone_7 from './pages/Iphone_7';
 import Iphone_X from './pages/Iphone_X';
 import Iphone_12 from './pages/Iphone_12';
@@ -19,6 +19,7 @@ import SamsungS8_sensor from './pages/SamsungS8_sensor';
 import SamsungS8_back_glass from './pages/SamsungS8_back_glass';
 import SamsungS8_speaker from './pages/SamsungS8_speaker';
 import SamsungS8_mother from './pages/SamsungS8_mother';
+import LenovoY530_battery from './pages/LenovoY530_battery';
 import Ask_Guide from './pages/Ask_Guide';
 import Filter_phone from './pages/Filter_phone';
 import Filter_PC from './pages/Filter_PC';
@@ -51,7 +52,7 @@ function App() {
           <Route exact path='/Galaxy_s8' element={<Galaxy_s8 />}/>
           <Route exact path='/Galaxy_s9' element={<Galaxy_s9 />}/>
           <Route exact path='/Galaxy_s10' element={<Galaxy_s10 />}/>
-          <Route exact path='/Lenovo_Legion5i' element={<Lenovo_Legion5i />}/>
+          <Route exact path='/Lenovo_LegionY530' element={<Lenovo_LegionY530 />}/>
           <Route exact path='/Iphone_7' element={<Iphone_7 />}/>
           <Route exact path='/Iphone_X' element={<Iphone_X />}/>
           <Route exact path='/Iphone_12' element={<Iphone_12 />}/>
@@ -63,6 +64,7 @@ function App() {
           <Route exact path='/SamsungS8_back_glass' element={<SamsungS8_back_glass />}/>
           <Route exact path='/SamsungS8_speaker' element={<SamsungS8_speaker />}/>
           <Route exact path='/SamsungS8_mother' element={<SamsungS8_mother />}/>
+          <Route exact path='/LenovoY530_battery' element={<LenovoY530_battery />}/>
           <Route exact path='/filter_phone' element={<Filter_phone />}/>
           <Route exact path='/filter_PC' element={<Filter_PC />}/>
           <Route exact path='/filter_tablet' element={<Filter_tablet />}/>

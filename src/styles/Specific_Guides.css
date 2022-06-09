@@ -55,7 +55,7 @@
 
 .container1 {
     width: 40%;
-    height: 92%;
+    height: auto;
     padding: 5px;
     margin: 10px; 
     flex-flow: row;
@@ -103,7 +103,7 @@
 
 .tools{
     width: 50%;
-    height: 92%;
+    height: auto;
     padding: 5px;
     margin: 10px; 
     flex-flow: row;
@@ -119,7 +119,7 @@
 }
 .parts {
     width: 50%;
-    height: 92%;
+    height: auto;
     padding: 5px;
     margin: 10px; 
     flex-flow: row;
@@ -144,7 +144,9 @@
     border: 1px solid black;
     padding: 3%;
 
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 .step_text {
@@ -176,7 +178,7 @@
 
 .author_image {
     width: 40%;
-    height: 92%;
+    height: auto;
     padding: 5px;
     margin: 10px; 
     flex-flow: row;
@@ -250,10 +252,24 @@
     margin: 20px;
     position:relative; 
     color: black;
-    
+
     border-radius: 10px;
     background: transparent;
     display: flex;
+
+}
+
+.text1 {
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    margin: 20px;
+    position:relative; 
+    color: black;
+    
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
 
 }
 

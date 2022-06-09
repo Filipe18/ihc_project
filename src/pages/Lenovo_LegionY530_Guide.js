@@ -12,11 +12,13 @@ function Guide_page() {
     return (
         <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
             <div className="headerContainer_Guides">
-                <p>Lenovo Legion 5i Repair Guides</p>
+                <p>Lenovo Legion Y530 Repair Guides</p>
             </div>
             <div className="container">
                 <div className="container_guides">
-                    
+                <Link to="/LenovoY530_battery">
+                        <button class="button2" role="button">Battery Replacement</button>
+                    </Link>
                 </div>
 
                 
