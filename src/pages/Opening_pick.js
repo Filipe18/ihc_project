@@ -1,6 +1,6 @@
 import BannerImage from '../assets/fundo.jpeg'
 import Popup from 'reactjs-popup'
-import PhoneImage from '../styles/screen_s8.jpeg'
+import PhoneImage from '../styles/opening_pick1.jpg'
 import step1 from '../styles/screen_s8_step1.jpeg'
 import step2 from '../styles/screen_s8_step2.jpeg'
 import step3 from '../styles/screen_s8_step3.jpeg'
@@ -10,11 +10,13 @@ import author from '../styles/screen_s8_author.jpeg'
 import '../styles/Specific_Guides.css'
 import * as React from 'react';
 import { Link } from 'react-router-dom'
-
+import { Rating } from 'react-simple-star-rating'
 
 
 function Opening_pick() {
 
+  // Catch Rating value
+  
     
     return (
         <div className="home2"  style={{backgroundImage: `url(${BannerImage})`}} >
@@ -24,15 +26,21 @@ function Opening_pick() {
             <div className="container">
                 <div className="container1" style={{backgroundImage: `url(${PhoneImage})`}}>
                 </div>
+                
                 <div className="container2">
-                    <p>Difficulty: 9/10</p>
-                    <p>Number of steps: 5</p>
-                    <p>Tools: 4</p>
-                    <p>Parts needed: 5</p>
+                <p>Evaluation:</p>
+                    <p><Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly /> 123 reviews</p>
+                    <p>SKU: EU145123-2</p>
+                    <p>€4,95</p>
+                    <p>Quantity: Set of Six</p>
+                    <p>In Stock</p>
 
                 </div>
             </div>
-            <h2><left>Introduction</left></h2>
+            <div className="text1">   
+                <h2>Introduction</h2>
+            </div> 
+            
             <div className="text">   
                 <p>Use this guide to replace a cracked or broken display on your Samsung Galaxy S8. This guide instructs you to replace only the display while leaving the original frame, motherboard, and battery in place. However, some replacement screens for this phone come pre-installed in a new frame (a.k.a. chassis), which requires a very different procedure—transplanting your phone's internals and installing a new battery. Make sure you have the correct part before starting this guide.</p>
             </div> 
