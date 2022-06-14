@@ -15,7 +15,7 @@ function Guide_page() {
                 <p>Samsung Galaxy S8 Repair Guides</p>
             </div>
 
-            <div className="container">
+            <div className="container1">
                 <div className="container_guides">
                     <Link to="/SamsungS8_screen">
                         <button class="button2" role="button">Screen Replacement</button>

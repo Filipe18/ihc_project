@@ -71,6 +71,19 @@
     border: 1px solid black;
 }
 
+.container1 {
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    margin: 20px;
+    position:relative; 
+    color: black;
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+    border: 1px solid black;
+}
+
 .container_last {
     width: 20%;
     height: 12%;
@@ -86,7 +99,7 @@
 
 
 .container_guides {
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 3px;
     margin: 10px; 

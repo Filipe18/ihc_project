@@ -14,7 +14,7 @@ function Guide_page() {
             <div className="headerContainer_Guides">
                 <p>Lenovo Legion Y530 Repair Guides</p>
             </div>
-            <div className="container">
+            <div className="container1">
                 <div className="container_guides">
                 <Link to="/LenovoY530_battery">
                         <button class="button2" role="button">Battery Replacement</button>

@@ -14,7 +14,7 @@ function Guide_page() {
             <div className="headerContainer_Guides">
                 <p>Samsung Galaxy S9 Repair Guides</p>
             </div>
-            <div className="container">
+            <div className="container1">
                 <div className="container_guides">
                     
                 </div>
