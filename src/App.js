@@ -36,7 +36,7 @@ import Drivers_Wrenches from './pages/Drivers_Wrenches';
 import Prying_Opening from './pages/Prying_Opening';
 import Griping_Cutting from './pages/Griping_Cutting';
 import Consumables from './pages/Consumables';
-
+import Opening_pick from './pages/Opening_pick';
 
 
 
@@ -81,7 +81,7 @@ function App() {
           <Route exact path='/Prying_Opening' element={<Prying_Opening />}/>
           <Route exact path='/Griping_Cutting' element={<Griping_Cutting />}/>
           <Route exact path='/Consumables' element={<Consumables />}/>
-          
+          <Route exact path='/opening_pick' element={<Opening_pick />}/>
         </Routes>
         <Footer/>
       </Router>

@@ -89,6 +89,25 @@
 
 }
 
+.container5 {
+
+    width: 60%;
+    height: 40%;
+    background: transparent;
+
+ 
+    padding: 5px;
+    margin: 10px; 
+    flex-flow: row;
+    background-color: transparent;
+    color: black;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3%;
+
+}
+
 .big_container_no_border {
     width: 60%;
     height: 40%;
