@@ -17,7 +17,7 @@ function Guide_page() {
 
     
     return (
-        <div className="home2"  style={{backgroundImage: `url(${BannerImage})`}} >
+        <div className="home2">
             <div className="headerContainer_Sp_Guide">
                 <p>Samsung Galaxy S8 Screen Replacement</p>
             </div>
@@ -32,7 +32,10 @@ function Guide_page() {
 
                 </div>
             </div>
-            <h2><left>Introduction</left></h2>
+            <div className="text1">
+                <h2><left>Introduction</left></h2>
+            </div>
+            
             <div className="text">   
                 <p>Use this guide to replace a cracked or broken display on your Samsung Galaxy S8. This guide instructs you to replace only the display while leaving the original frame, motherboard, and battery in place. However, some replacement screens for this phone come pre-installed in a new frame (a.k.a. chassis), which requires a very different procedure—transplanting your phone's internals and installing a new battery. Make sure you have the correct part before starting this guide.</p>
             </div> 

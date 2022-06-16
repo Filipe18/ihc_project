@@ -37,7 +37,7 @@ import Prying_Opening from './pages/Prying_Opening';
 import Griping_Cutting from './pages/Griping_Cutting';
 import Consumables from './pages/Consumables';
 import Opening_pick from './pages/Opening_pick';
-
+import Test from './pages/Test';
 
 
 
@@ -82,6 +82,8 @@ function App() {
           <Route exact path='/Griping_Cutting' element={<Griping_Cutting />}/>
           <Route exact path='/Consumables' element={<Consumables />}/>
           <Route exact path='/opening_pick' element={<Opening_pick />}/>
+          <Route exact path='/test' element={<Test />}/>
+        
         </Routes>
         <Footer/>
       </Router>

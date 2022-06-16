@@ -1,4 +1,4 @@
-import BannerImage from '../assets/fundo.jpeg'
+import PhoneImage from '../styles/Samsung_S8.jpg'
 import '../styles/Guides.css'
 import * as React from 'react';
 import {Link} from "react-router-dom"
@@ -10,12 +10,15 @@ function Guide_page() {
 
     
     return (
-        <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
+        <div className="home" >
             <div className="headerContainer_Guides">
                 <p>Samsung Galaxy S8 Repair Guides</p>
             </div>
-
-            <div className="container1">
+            <div className="big_container_no_border1">
+            <div className="container7" style={{backgroundImage: `url(${PhoneImage})`}}>
+                </div>
+            <div className="container7">
+            
                 <div className="container_guides">
                     <Link to="/SamsungS8_screen">
                         <button class="button2" role="button">Screen Replacement</button>
@@ -43,6 +46,7 @@ function Guide_page() {
                 
             </div>
 
+            </div>
             
             <Link to="/Ask_Guide">
                 <button class="button" role="button">Did not find what you were looking for? Ask for a guide!</button>

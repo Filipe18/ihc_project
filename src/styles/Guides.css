@@ -1,5 +1,5 @@
 .home {
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -68,7 +68,7 @@
     border-radius: 10px;
     background: transparent;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 
@@ -83,7 +83,7 @@
     border-radius: 10px;
     background: transparent;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 .container_last {
@@ -119,7 +119,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border: 1px solid black;
+    border: 1px solid;
   }
 
 

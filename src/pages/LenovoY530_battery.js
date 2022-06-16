@@ -17,7 +17,7 @@ function Guide_page() {
 
     
     return (
-        <div className="home2"  style={{backgroundImage: `url(${BannerImage})`}} >
+        <div className="home2">
             <div className="headerContainer_Sp_Guide">
                 <p>Lenovo Legion Y530 Battery Replacement</p>
             </div>
@@ -32,7 +32,10 @@ function Guide_page() {
 
                 </div>
             </div>
-            <h2><left>Introduction</left></h2>
+            <div className="text1">
+                <h2><left>Introduction</left></h2>
+            </div>
+            
             <div className="text">   
                 <p>If your Lenovo Legion Y530-15ICH isn’t powering on or holding a charge then you should use this guide to replace the battery.
 
