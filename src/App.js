@@ -37,9 +37,19 @@ import Prying_Opening from './pages/Prying_Opening';
 import Griping_Cutting from './pages/Griping_Cutting';
 import Consumables from './pages/Consumables';
 import Opening_pick from './pages/Opening_pick';
-import Test from './pages/Test';
-
-
+import Spudger from './pages/Spudger';
+import Set_of_tools from './pages/Set_of_tools';
+import Opening_tool from './pages/Opening_tool';
+import Plastic_cards from './pages/Plastic_cards';
+import Suction from './pages/Suction';
+import Pentalobe from './pages/Pentalobe';
+import Philips_1 from './pages/Philips_1';
+import Philips_2 from './pages/Philips_2';
+import Tripoint from './pages/Tripoint';
+import Tweezers from './pages/Tweezers';
+import Tweezers_set from './pages/Tweezers_set';
+import Spring from './pages/Spring';
+import Hemostat from './pages/Hemostat';
 
 function App() {
   return (
@@ -82,7 +92,19 @@ function App() {
           <Route exact path='/Griping_Cutting' element={<Griping_Cutting />}/>
           <Route exact path='/Consumables' element={<Consumables />}/>
           <Route exact path='/opening_pick' element={<Opening_pick />}/>
-          <Route exact path='/test' element={<Test />}/>
+          <Route exact path='/spudger' element={<Spudger />}/>
+          <Route exact path='/set_of_tools' element={<Set_of_tools />}/>
+          <Route exact path='/opening_tool' element={<Opening_tool />}/>
+          <Route exact path='/plastic_cards' element={<Plastic_cards />}/>
+          <Route exact path='/suction' element={<Suction />}/>
+          <Route exact path='/pentalobe' element={<Pentalobe />}/>
+          <Route exact path='/philips_1' element={<Philips_1 />}/>
+          <Route exact path='/tripoint' element={<Tripoint />}/>
+          <Route exact path='/philips_2' element={<Philips_2 />}/>
+          <Route exact path='/tweezers' element={<Tweezers />}/>
+          <Route exact path='/tweezers_set' element={<Tweezers_set />}/>
+          <Route exact path='/spring' element={<Spring />}/>
+          <Route exact path='/hemostat' element={<Hemostat />}/>
         
         </Routes>
         <Footer/>

@@ -205,6 +205,37 @@
     padding: 3%;
 
 }
+
+.filter_box {
+    width: 20%;
+    height: 300px;
+    padding: 5px;
+    margin: 10px; 
+    flex-flow: row;
+    background-color: whitesmoke;
+    color: black;
+
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 3%;
+
+}
+
+.products_box {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 10px; 
+    flex-flow: row;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 3%;
+
+}
 .author {
     width: 30%;
     height: 10%;

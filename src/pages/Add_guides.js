@@ -114,7 +114,7 @@ class Add_guides extends React.Component {
             
             </label>
             
-				    <Popup trigger={<button>Add Guide</button>}>
+				    <Popup trigger={<button className='button_add'>Add Guide</button>}>
               <div className="popup-box">
                 <div className="box">    
                     <h1>
@@ -122,13 +122,13 @@ class Add_guides extends React.Component {
                       <p>Thanks for helping the community!</p>
 
                       <Link to="/add_guides">
-                      <button onClick >
+                      <button className='button_add' onClick >
                         Add another guide
                       </button>
                       </Link>
 
                       <Link to="/">
-                      <button onClick>
+                      <button className='button_add' onClick>
                         Home Page
                       </button>
                       </Link>

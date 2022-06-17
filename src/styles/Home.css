@@ -89,6 +89,39 @@
     margin-top: -7%;
   }
 
+  .button_container_store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  .button_store {
+    width: 200px;
+    height: 240px;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-decoration: none;
+  }
+  .button_store:hover {
+    width: 200px;
+    height: 240px;
+    background-position: center;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-decoration: none;
+    transform: scale(1.2);
+  }
+
   .button_phone {
     line-height: 0;
     width: 250px;
