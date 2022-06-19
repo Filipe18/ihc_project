@@ -25,6 +25,7 @@ import Philips_2 from './Philips_2';
 
 class Store extends React.Component {
 
+    
     constructor() {
 
         super();
@@ -63,6 +64,7 @@ class Store extends React.Component {
 			show4: e.target.checked,
         });
     }
+    
     render() {
 
            return (
