@@ -50,6 +50,7 @@ import Tweezers from './pages/Tweezers';
 import Tweezers_set from './pages/Tweezers_set';
 import Spring from './pages/Spring';
 import Hemostat from './pages/Hemostat';
+import Ask_Repair from './pages/Ask_Repair';
 
 function App() {
   return (
@@ -105,7 +106,7 @@ function App() {
           <Route exact path='/tweezers_set' element={<Tweezers_set />}/>
           <Route exact path='/spring' element={<Spring />}/>
           <Route exact path='/hemostat' element={<Hemostat />}/>
-        
+          <Route exact path='/ask_repair' element={<Ask_Repair />}/>
         </Routes>
         <Footer/>
       </Router>

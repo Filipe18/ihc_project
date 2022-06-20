@@ -10,7 +10,7 @@ function Guide_page() {
 
     
     return (
-        <div className="home"  style={{backgroundImage: `url(${BannerImage})`}} >
+        <div className="home">
             <div className="headerContainer_Guides">
                 <p>Samsung Galaxy S10 Repair Guides</p>
             </div>
@@ -21,8 +21,8 @@ function Guide_page() {
 
                 
             </div>
-            <Link to="/Ask_Guide">
-                <button class="button" role="button">Did not find what you were looking for? Ask for a guide!</button>
+            <Link to="/ask_repair">
+                <button class="button2" role="button">Did not find what you were looking for? Ask for a guide!</button>
                 </Link>
         </div>
         

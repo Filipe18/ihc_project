@@ -74,7 +74,7 @@ class Store extends React.Component {
                 <p>Store for Parts</p>
             </div>
             <div className="text" text-align="center">   
-                <p>Here you can find all Tools needed for your repairs</p>
+                <p className="text">Here you can find all Tools needed for your repairs</p>
             </div> 
             <div className="big_container_no_border1">
             <div className="filter_box">

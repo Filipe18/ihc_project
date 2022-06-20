@@ -55,10 +55,10 @@ class Ask_Guide extends React.Component {
                 <input type="text" name="model" />
             </label>
             <label>
-            Problem:
+            Type of Repair:
                 <input type="text" name="category" />
             </label>
-            <Popup trigger={<button>Request</button>}>
+            <Popup trigger={<button class="button2">Request</button>}>
               <div className="popup-box">
                 <div className="box">
                     <h1>

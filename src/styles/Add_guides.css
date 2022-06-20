@@ -23,7 +23,7 @@ form {
   padding: 20px 40px 40px 40px;
   border-radius: 6px;
   box-shadow: 0px 8px 36px #222;
-  background-color: #fefefe;
+  background-color: whitesmoke;
   justify-content: center;
   align-items: center;
 }
@@ -133,9 +133,14 @@ button:hover {
 }
 
 .Button{
-  text-align: center;
-  height: 100%;
-  width: 438%;
-  margin-left: -168%;
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 	0.938em;
+  border: none;
+  border-radius: 50px;
+  background-color: #22223B;
+  color: #fefefe;
 
 }

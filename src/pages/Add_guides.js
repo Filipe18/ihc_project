@@ -76,36 +76,15 @@ class Add_guides extends React.Component {
             </label>
             <label>
             Brand:
-              <select 
-                onChange={this.onChange}
-                name = "brand"
-                required>
-                <option key="default"></option>
-                <option value="Apple">Apple</option>
-                <option value="Samsung">Samsung</option>
-              </select>
+            <input type="text" id="brand" />
             </label>
             <label>
             Model:
-              <select
-                name = "model"
-                required>
-                <option key="default"></option>
-                {options.map(o => <option key={o.id} value={o.id}>{o.text}</option>)}
-              </select>
+            <input type="text" id="model" />
             </label>
             <label>
             Problem description:
-              <select
-                name="category"
-                required>
-                <option key="default"></option>
-                <option>Battery Replacement</option>
-                <option>Display Replacement</option>
-                <option>Hard Drive Replacement</option>
-                <option>Ram Replacement</option>
-                <option>Other</option>
-              </select>
+            <input type="text" id="brand" />
             </label>
             <label>Upload PDF Guide:
                 <input type="file" name="file" onChange={changeHandler}></input>
@@ -114,7 +93,7 @@ class Add_guides extends React.Component {
             
             </label>
             
-				    <Popup trigger={<button className='button_add'>Add Guide</button>}>
+				    <Popup trigger={<button className='button2'>Add Guide</button>}>
               <div className="popup-box">
                 <div className="box">    
                     <h1>

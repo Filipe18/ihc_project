@@ -66,7 +66,7 @@ class Filter_device extends React.Component {
             </label>
             <label>
               <Link to={`/${this.state.selectValue}`}>
-                <button className="Button">
+                <button className="button2">
                   Search
                 </button>
               </Link>

@@ -27,6 +27,8 @@ function Navbar() {
                 </div>
             </div>
             <div className="rightSide">
+            <NavLink to="/Ask_guide" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Request a Guide </NavLink>
+
                 <NavLink to="/add_guides" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Add Guides </NavLink>
                 
                 <div onClick={() => window.location.replace("/#section1")} className="aboutStyle">
@@ -34,7 +36,6 @@ function Navbar() {
                 </div>
 
                 <NavLink to="/Store" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Store </NavLink>
-                
                 <NavLink to="/login" style={({ isActive }) => ({ color: isActive ? '#fff' : '#545e6f', color: isActive ? 'gray' : '#f0f0f0', })}> Login </NavLink>
                 <button onClick={toggleNavbar}>
                     <ReorderIcon />

@@ -208,7 +208,7 @@
 
 .filter_box {
     width: 20%;
-    height: 300px;
+    height: auto;
     padding: 5px;
     margin: 10px; 
     flex-flow: row;

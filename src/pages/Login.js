@@ -57,10 +57,10 @@ export default function Login() {
         </Form.Group>
         
           <Link to="/">
-            <Button block="true" size="lg" type="submit" disabled={!validateForm()} onClick={routeChange}>
+            <button class="button2" block="true" type="submit" disabled={!validateForm()} onClick={routeChange}>
               Login
-              
-              </Button> 
+            </button>
+            
           </Link>
 
        

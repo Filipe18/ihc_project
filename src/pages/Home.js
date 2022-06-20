@@ -26,7 +26,7 @@ function Home() {
             <div className="button_container">
                 <div className="button_container">
                     <Link to="/filter_phone" style={{ textDecoration: 'none' }}>
-                        <button class="button_phone" role="button"><h1>Phone</h1></button>
+                        <button class="button_phone" ><h1>Phone</h1></button>
                     </Link>  
                 </div>
                 <div className="button_container">
