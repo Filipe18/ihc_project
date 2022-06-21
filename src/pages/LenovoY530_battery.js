@@ -47,8 +47,8 @@ Please make sure the laptop is powered off completely and unplugged before begin
             <div className="big_container_no_border">
                 <div className="tools">
                     <h4>Tools:</h4>
-                    <p>- Opening picks</p>
-                    <p>- Phillips #0 Screwdriver</p>
+                    <p><a href="/opening_pick" className='no_dec'>- Opening picks</a></p>
+                    <p><a href="/philips_2" className='no_dec'>- Phillips #0 Screwdriver</a></p>
 
                 </div>
                 <div className="parts">

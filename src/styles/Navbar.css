@@ -30,6 +30,8 @@ justify-content: center;
 color: white;
 text-decoration: none;
 margin: 20px;
+font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.25em;
 }
 
 .navbar .rightSide button {

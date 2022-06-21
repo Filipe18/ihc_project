@@ -50,6 +50,8 @@ label {
   margin-bottom: 0.5em;
   color: #444;
   font-weight: lighter;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.25em;
 }
 
 input {

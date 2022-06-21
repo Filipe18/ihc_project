@@ -101,13 +101,13 @@ class Add_guides extends React.Component {
                       <p>Thanks for helping the community!</p>
 
                       <Link to="/add_guides">
-                      <button className='button_add' onClick >
+                      <button className='button2' onClick >
                         Add another guide
                       </button>
                       </Link>
 
                       <Link to="/">
-                      <button className='button_add' onClick>
+                      <button className='button2' onClick>
                         Home Page
                       </button>
                       </Link>

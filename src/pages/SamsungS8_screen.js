@@ -42,10 +42,10 @@ function Guide_page() {
             <div className="big_container_no_border">
                 <div className="tools">
                     <h4>Tools:</h4>
-                    <p>- Suction Handle</p>
-                    <p>- Spudger</p>
-                    <p>- Tweezers</p>
-                    <p>- Phillips #00 Screwdriver</p>
+                    <p><a href="/suction" className='no_dec'>- Suction Handle</a></p>
+                    <p><a href="/spudger" className='no_dec'>- Spudger</a></p>
+                    <p><a href="/tweezers" className='no_dec'>- Tweezers</a></p>
+                    <p><a href="/philips_1" className='no_dec'>- Phillips #00 Screwdriver</a></p>
                 </div>
                 <div className="parts">
                     <h4>Parts:</h4>
@@ -53,7 +53,6 @@ function Guide_page() {
                     <p>- Galaxy S8 Display Heat Dissipation Sticker</p>
                     <p>- Galaxy S8 Midframe</p>
                     <p>- Galaxy S8 Rear Cover Adhesive</p>
-                    <p>- Tesa 61395 Tape</p>
                 </div>
             </div>
             <div className="text">   

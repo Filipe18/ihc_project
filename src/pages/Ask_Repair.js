@@ -43,7 +43,7 @@ class Ask_Repair extends React.Component {
                      Our team will take a look to your request.
                       <p>Thanks for using our services!</p>
                       <Link to="/">
-                      <button onClick>
+                      <button className='button2' onClick>
                         Done
                       </button>
                       </Link>

@@ -72,9 +72,10 @@ class Store extends React.Component {
                 <div className="home2">
             <div className="headerContainer_Sp_Guide">
                 <p>Store for Parts</p>
+                
             </div>
-            <div className="text" text-align="center">   
-                <p className="text">Here you can find all Tools needed for your repairs</p>
+            <div className="text">   
+                <p>Here you can find all Tools needed for your repairs</p>
             </div> 
             <div className="big_container_no_border1">
             <div className="filter_box">
@@ -86,28 +87,29 @@ class Store extends React.Component {
                 </div>
                 <div className="products_box">
                     {this.state.show1 ? 
+                    
                     <div  className="comments_preview_sample">
-                        <h1>All</h1>
+                        <h1 class="text" >All</h1>
                 <div className="button_container_store">
                     
                         <div className="button_container_store">
-                    <Link to="/opening_pick" >
-                        <button class="button_store" style={{backgroundImage: `url(${Opening_pick})`,textDecoration: 'none' }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/opening_pick" className='button34'>
+                        <button class="button_store" style={{backgroundImage: `url(${Opening_pick})`,textDecoration: 'none' }} role="button"></button>
+                        Opening Pick
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/spudger" >
-                        <button class="button_store" style={{backgroundImage: `url(${Spudger})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/spudger" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Spudger})`, }} role="button"></button>
+                        Spudger
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/set_of_tools" >
-                        <button class="button_store" style={{backgroundImage: `url(${Set_of})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/set_of_tools" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Set_of})`, }} role="button"></button>
+                        Set of tools
                     </Link>
                     
                 </div>
@@ -116,88 +118,91 @@ class Store extends React.Component {
             <div className='space'></div>
             <div className="button_container_store">
                         <div className="button_container_store">
-                    <Link to="/opening_tool" >
-                        <button class="button_store" style={{backgroundImage: `url(${Opening})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/opening_tool" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Opening})`, }} role="button"></button>
+                        Opening Tool
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/plastic_cards" >
-                        <button class="button_store" style={{backgroundImage: `url(${Plastic})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/plastic_cards" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Plastic})`, }} role="button"></button>
+                        Plastic Cards
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/suction" >
-                        <button class="button_store" style={{backgroundImage: `url(${Suction})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/suction" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Suction})`, }} role="button"></button>
+                        Suction tool
                     </Link>
                     
                 </div>
              
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
                         <div className="button_container_store">
-                    <Link to="/pentalobe" >
-                        <button class="button_store" style={{backgroundImage: `url(${Pentalobe})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/pentalobe" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Pentalobe})`, }} role="button"></button>
+                        Pentalobe Screwdriver
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/philips_1" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/philips_1" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Philips Screwdriver #00
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/tripoint" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tripoint" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Tripoint Screwdriver
                     </Link>
                     
                 </div>
              
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
                         <div className="button_container_store">
-                    <Link to="/philips_2" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/philips_2" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Philips Screwdriver #0
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/tweezers" >
-                        <button class="button_store" style={{backgroundImage: `url(${Tweezers})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tweezers" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Tweezers})`, }} role="button"></button>
+                        Tweezers
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/tweezers_set" >
-                        <button class="button_store" style={{backgroundImage: `url(${Tweezers_set})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tweezers_set" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Tweezers_set})`, }} role="button"></button>
+                        Set of Tweezers
                     </Link>
                     
                 </div>
              
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
                 <div className="button_container_store">
-                    <Link to="/spring" >
-                        <button class="button_store" style={{backgroundImage: `url(${Spring})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/spring" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Spring})`, }} role="button"></button>
+                        Spring
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/hemostat" >
-                        <button class="button_store" style={{backgroundImage: `url(${Hemostat})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/hemostat" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Hemostat})`, }} role="button"></button>
+                        Hemostat
                     </Link>
                     
                 </div>
@@ -206,53 +211,54 @@ class Store extends React.Component {
                     </div> : null}
                     {this.state.show2 ? 
                     <div  className="comments_preview_sample">
-                        <h1>Prying</h1>
+                        <h1 class="text">Prying</h1>
             <div className="button_container_store">
             <div className="button_container_store">
-                    <Link to="/opening_pick" >
-                        <button class="button_store" style={{backgroundImage: `url(${Opening_pick})`,textDecoration: 'none' }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/opening_pick" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Opening_pick})`,textDecoration: 'none' }} role="button"></button>
+                        Opening Pick
                     </Link>
                     
                 </div>
 
                 <div className="button_container_store">
-                    <Link to="/spudger" >
-                        <button class="button_store" style={{backgroundImage: `url(${Spudger})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/spudger" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Spudger})`, }} role="button"></button>
+                        Spudger
                     </Link>
                     
                 </div>   
                 <div className="button_container_store">
-                    <Link to="/set_of_tools" >
-                        <button class="button_store" style={{backgroundImage: `url(${Set_of})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/set_of_tools" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Set_of})`, }} role="button"></button>
+                        Set of Tools
                     </Link>
                     
                 </div>
              
                 
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
             <div className="button_container_store">
-                    <Link to="/plastic_cards" >
-                        <button class="button_store" style={{backgroundImage: `url(${Plastic})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/plastic_cards" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Plastic})`, }} role="button"></button>
+                        Plastic Cards
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/opening_tool" >
-                        <button class="button_store" style={{backgroundImage: `url(${Opening})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/opening_tool" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Opening})`, }} role="button"></button>
+                        Opening Tool
                     </Link>
                     
                 </div>
             
             <div className="button_container_store">
-                    <Link to="/suction" >
-                        <button class="button_store" style={{backgroundImage: `url(${Suction})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/suction" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Suction})`, }} role="button"></button>
+                        Suction
                     </Link>
                     
                 </div>
@@ -262,36 +268,37 @@ class Store extends React.Component {
 
                     {this.state.show3 ? 
                     <div  className="comments_preview_sample">
-                        <h1>Drivers</h1>
+                        <h1 class="text">Drivers</h1>
             <div className="button_container_store">
             
                 <div className="button_container_store">
-                    <Link to="/pentalobe" >
-                        <button class="button_store" style={{backgroundImage: `url(${Pentalobe})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/pentalobe" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Pentalobe})`, }} role="button"></button>
+                        Pentalobe Screwdriver
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/philips_1" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/philips_1" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Philips Screwdriver #00
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/tripoint" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tripoint" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Tripoint Screwdriver
                     </Link>
                     
                 </div>
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
             <div className="button_container_store">
-                    <Link to="/philips_2" >
-                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/philips_2" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Philips_1})`, }} role="button"></button>
+                        Philips Screwdriver #0
                     </Link>
                     
                 </div>
@@ -301,35 +308,36 @@ class Store extends React.Component {
 
                     {this.state.show4 ? 
                     <div  className="comments_preview_sample">
-                        <h1>Gripping</h1>
+                        <h1 class="text">Gripping</h1>
             <div className="button_container_store">
             <div className="button_container_store">
-                    <Link to="/tweezers" >
-                        <button class="button_store" style={{backgroundImage: `url(${Tweezers})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tweezers" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Tweezers})`, }} role="button"></button>
+                        Tweezers
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/tweezers_set" >
-                        <button class="button_store" style={{backgroundImage: `url(${Tweezers_set})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/tweezers_set" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Tweezers_set})`, }} role="button"></button>
+                        Set of Tweezers
                     </Link>
                     
                 </div>
                 <div className="button_container_store">
-                    <Link to="/spring" >
-                        <button class="button_store" style={{backgroundImage: `url(${Spring})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/spring" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Spring})`, }} role="button"></button>
+                        Spring
                     </Link>
                     
                 </div>
             </div>
+            <div className='space'></div>
             <div className="button_container_store">
             <div className="button_container_store">
-                    <Link to="/hemostat" >
-                        <button class="button_store" style={{backgroundImage: `url(${Hemostat})`, }} role="button"><h1>Tablet</h1></button>
-                        <div className='text1'>aff</div>
+                    <Link to="/hemostat" className='button34' >
+                        <button class="button_store" style={{backgroundImage: `url(${Hemostat})`, }} role="button"></button>
+                        Hemostat
                     </Link>
                     
                 </div>

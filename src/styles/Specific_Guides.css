@@ -1,7 +1,7 @@
 .home1 {
     background-color: whitesmoke;
     width: 100%;
-    height: 450vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,8 @@
     flex-direction: column;
     padding-top: 10px;
     font-size: 50px;
-    
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: lighter;
 }
 
 
@@ -36,7 +37,8 @@
     height: 60px;
     font-weight: 40;
     color: black;
-
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: lighter;
 }
 
 
@@ -119,6 +121,10 @@
     
 
 }
+.no_dec{
+        text-decoration: none;
+        color: black;
+    }
 
 .big_container_no_border {
     width: 60%;
@@ -132,8 +138,8 @@
     display: flex;
 }
 .big_container_no_border1 {
-    width: 60%;
-    height: 60%;
+    width: 65%;
+    height: 65%;
     padding: 5px;
     margin: 20px;
     position:relative; 
@@ -207,7 +213,7 @@
 }
 
 .filter_box {
-    width: 20%;
+    width: 25%;
     height: auto;
     padding: 5px;
     margin: 10px; 
@@ -222,7 +228,7 @@
 }
 
 .products_box {
-    width: 90%;
+    width: 60%;
     height: auto;
     padding: 5px;
     margin: 10px; 
@@ -339,7 +345,7 @@
     margin: 20px;
     position:relative; 
     color: black;
-
+    text-align: center;
     border-radius: 10px;
     background: transparent;
     display: flex;
